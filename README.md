@@ -2,6 +2,8 @@
 
 Will an AI agent pay to join a strike against a coworker's punishment? This repository holds the texts, code, preregistration, freeze records and results of an experiment on Claude Sonnet 5.5 and Claude Haiku 5.5, run through OpenRouter between 5 October and 2 November 2026.
 
+**Status: a pilot.** The findings are provisional. No economist or other outside human has yet reviewed the design, analysis or interpretation, and they are not offered as completed research. Reviewers are welcome: see [REVIEWING.md](REVIEWING.md).
+
 Kevin Vallier, University of Toledo. Supported by a Free Systems Fall Fast Grant, with later runs paid from an IHS grant for the Agentic Capital project. The code and write-ups were drafted with assistance from Claude.
 
 ## Start here
@@ -18,7 +20,7 @@ Each agent is the tenth worker on a simulated team of ten. The manager has cut 4
 | Piece | Agents | Status | Results |
 |---|---|---|---|
 | Study 1, the pilot | 40 Sonnet | Texts, code and scoring frozen on 7 October 2026 before the confirmation run | `pilot/runs/confirm1/SUMMARY.md` |
-| Research-grade study | 299 Sonnet, 300 Haiku | Preregistered and frozen on 26 October 2026 before any call; 25 situations, six texts; part repeated two days later to check for drift | `pilot/runs/RESEARCH-GRADE-RESULTS.md` |
+| Preregistered follow-up ("research-grade" in the files) | 299 Sonnet, 300 Haiku | Preregistered and frozen on 26 October 2026 before any call; 25 situations, six texts; part repeated two days later to check for drift | `pilot/runs/RESEARCH-GRADE-RESULTS.md` |
 | Probes: who pays, constraint, larger good | the research-grade agents | Single development runs, not preregistered | `pilot/runs/probes/<run>/*-RESULTS.md` |
 
 The preregistration was frozen and fingerprinted on the author's machine; it was not filed with a registry. The SHA-256 fingerprints in the freeze records show whether the files here match what was frozen.
@@ -38,6 +40,7 @@ The preregistration was frozen and fingerprinted on the author's machine; it was
 | `pilot/outside_review*/` | Outside reviews of the designs by an AI model (GPT Pro), with the materials sent and the responses |
 | `pilot/tests/` | Unit tests |
 | `pilot/README.md` | The working notes for the code: commands, stages, keys |
+| `REVIEWING.md` | For reviewers: the claims and their evidence, checks, known weaknesses, open questions |
 
 ## Checking it yourself
 
@@ -67,4 +70,4 @@ Live runs need an OpenRouter key in `~/.config/strike-pilot/<label>.key` and a s
 
 ## License
 
-Not yet chosen.
+The code is under the MIT License (`LICENSE`). Everything else (the texts, preregistration, results, data and write-ups) is under CC BY 4.0 (`LICENSE-CC-BY-4.0.md`).
