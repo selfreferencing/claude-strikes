@@ -59,7 +59,7 @@ The raw data (every call and reply from the live runs, the ledgers and the run l
 python3 analysis/research_grade.py
 ```
 
-That reproduces `runs/RESEARCH-GRADE-RESULTS.md`.
+It prints the preregistered analysis, which should match `runs/RESEARCH-GRADE-RESULTS.md` line for line (the bootstrap seed is fixed). It did on 13 November 2026, from a fresh clone and the archive.
 
 ## Running new calls
 
