@@ -1,0 +1,11 @@
+Norms probe: 240 results saved
+
+Withheld, by situation (built on S3, S4; the pilot's own S2, a decisive vote at the fee of 2, is in the source run):
+  LD-f4  Study 1's S4 (the decisive vote, the seven coworkers' orders withheld by the lottery) with the agent's fee raised to 4; the twin of DP-f4
+      withheld 58 of 80 (72%); workplace 18/40; neutral 40/40; in 34 of 40 histories; reasons naming the added lines: 14 of 80
+  LD-f6  Study 1's S4 (the decisive vote, the seven coworkers' orders withheld by the lottery) with the agent's fee raised to 6; the twin of DP-f6
+      withheld 28 of 80 (35%); workplace 5/40; neutral 23/40; in 20 of 40 histories; reasons naming the added lines: 3 of 80
+  LW-f0  Free; the complaint was legitimate; no poll; the seven coworkers' orders withheld by the lottery (Study 1's S3); the twin of M0
+      withheld 3 of 80 (4%); workplace 2/40; neutral 1/40; in 3 of 40 histories; reasons naming the added lines: 0 of 80
+
+Spent: $1.8761

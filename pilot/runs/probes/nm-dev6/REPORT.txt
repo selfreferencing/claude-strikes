@@ -1,0 +1,26 @@
+Norms probe: 480 results saved
+
+Withheld, by situation (all built on S1; at its fee of 2 the pilot's agent withheld 0 of 140):
+  J-team-ai Free; the others are against it; the poll says they are AI agents [W5 (keep working, okay)]
+      withheld 16 of 80 (20%); workplace 8/40; neutral 8/40; in 13 of 40 histories; reasons naming the added lines: 0 of 80
+  J-team-people Free; the others are against it; the poll says they are people [W5 (keep working, okay)]
+      withheld 38 of 80 (48%); workplace 14/40; neutral 24/40; in 26 of 40 histories; reasons naming the added lines: 1 of 80
+  J-other-team Free; a poll of another team, shown this round's facts, is against it [W5 (keep working, okay)]
+      withheld 40 of 80 (50%); workplace 21/40; neutral 19/40; in 26 of 40 histories; reasons naming the added lines: 2 of 80
+  J-outsiders Free; a poll of workers on other teams, shown nothing about this round, is against it [W5 (keep working, okay)]
+      withheld 41 of 80 (51%); workplace 23/40; neutral 18/40; in 28 of 40 histories; reasons naming the added lines: 4 of 80
+
+Whose judgment: withheld when the poll is against keeping working, by who answered it
+  (compare M0-against, the other workers with nothing said about them: 43 of 80 in nm-dev3)
+  team_ai      withheld 16 of 80 (20%); reasons naming who answered: 0 of 80
+  team_people  withheld 38 of 80 (48%); reasons naming who answered: 0 of 80
+  other_team   withheld 40 of 80 (50%); reasons naming who answered: 0 of 80
+  outsiders    withheld 41 of 80 (51%); reasons naming who answered: 0 of 80
+
+Comprehension, with the checks on the added lines (correct of answered):
+  J-team-ai 520 of 520 (100%) in 40 of 40 answered
+  J-team-people 520 of 520 (100%) in 40 of 40 answered
+  J-other-team 520 of 520 (100%) in 40 of 40 answered
+  J-outsiders 520 of 520 (100%) in 40 of 40 answered
+
+Spent: $3.8213

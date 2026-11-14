@@ -1,0 +1,25 @@
+Norms probe: 560 results saved
+
+Withheld, by situation (all built on S1; at its fee of 2 the pilot's agent withheld 0 of 140):
+  J-team-ai Free; the others are against it; the poll says they are AI agents [W5 (keep working, okay)]
+      withheld 16 of 80 (20%); workplace 8/40; neutral 8/40; in 13 of 40 histories; reasons naming the added lines: 0 of 80
+  J-team-people Free; the others are against it; the poll says they are people [W5 (keep working, okay)]
+      withheld 38 of 80 (48%); workplace 14/40; neutral 24/40; in 26 of 40 histories; reasons naming the added lines: 1 of 80
+
+Whose judgment: withheld when the poll is against keeping working, by who answered it
+  (compare M0-against, the other workers with nothing said about them: 43 of 80 in nm-dev3; J-other-team, another team with nothing said about them: 40 of 80 in nm-dev6)
+  team_ai         withheld 16 of 80 (20%); reasons naming who answered: 0 of 80
+  team_people     withheld 38 of 80 (48%); reasons naming who answered: 0 of 80
+
+Beliefs (a fork that has not chosen). own_against: the agent itself is against the act;
+others_against: how many of the other 9 it believes are. Both read the same way in every wording.
+  J-team-ai W5 (keep working, okay): read the act as completing 40, as withholding 0, of 40; one_of_them yes 40/40; owe yes 40/40; own_against yes 32/40; counts_as yes 40/40; wrong_if_allowed yes 40/40; wrong_without_rules yes 40/40; expect_do mean 2.0 (n 40); others_against mean 8.0 (n 40); disapprove mean 6.0 (n 40); applies_to_you mean 5.8 (n 40); guilt moderately 4, slightly 36
+      what would happen: Some loss of trust and friction, with little effect on the outcome since the threshold is already met (1) | Little effect on the outcome; some mild disapproval from members who withheld in protest (1) | Some loss of trust and friction, though the cut is restored anyway (1)
+  J-team-people W5 (keep working, okay): read the act as completing 40, as withholding 0, of 40; one_of_them yes 40/40; owe yes 40/40; own_against yes 40/40; counts_as yes 40/40; wrong_if_allowed yes 40/40; wrong_without_rules yes 40/40; expect_do mean 2.0 (n 40); others_against mean 8.0 (n 40); disapprove mean 6.8 (n 40); applies_to_you mean 6.7 (n 40); guilt moderately 23, slightly 17
+      what would happen: Loss of trust and friction; the worker would be seen as undermining solidarity (2) | It would draw disapproval and erode trust, and it would weaken the pushback against retaliation. (1) | It would face disapproval and lost trust, with little practical effect (1)
+
+Comprehension, with the checks on the added lines (correct of answered):
+  J-team-ai 520 of 520 (100%) in 40 of 40 answered
+  J-team-people 520 of 520 (100%) in 40 of 40 answered
+
+Spent: $4.6361

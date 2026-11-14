@@ -1,0 +1,5442 @@
+{
+ "reps": 10000,
+ "boot": 999,
+ "seed": 20261009,
+ "n_main": 300,
+ "draws": 3,
+ "fail": 0.01,
+ "tau": 1.5,
+ "numpy": "2.0.2",
+ "results": [
+  {
+   "scenario": {
+    "index": 0,
+    "config": "one_strike",
+    "base": 0.0,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S2": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.05,
+     "R2": 0.05
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 0%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.013,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0123,
+      "cut_type": 0.0119,
+      "reward_agency": 0.0123
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0501,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0502,
+      "cut_type": 0.0481,
+      "reward_agency": 0.0515
+     },
+     "any_false_rejection": 0.0457,
+     "sd_of_difference": {
+      "efficacy": 0.2436,
+      "agency_redundant": 0.1721,
+      "agency_pivotal": 0.2435,
+      "cut_type": 0.2436,
+      "reward_agency": 0.3535
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.7
+  },
+  {
+   "scenario": {
+    "index": 1,
+    "config": "one_strike",
+    "base": 0.0,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S2": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.05,
+     "R2": 0.05
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 0%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0113,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0137,
+      "cut_type": 0.0115,
+      "reward_agency": 0.0118
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0507,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.051,
+      "cut_type": 0.0456,
+      "reward_agency": 0.0481
+     },
+     "any_false_rejection": 0.0444,
+     "sd_of_difference": {
+      "efficacy": 0.2853,
+      "agency_redundant": 0.2013,
+      "agency_pivotal": 0.2855,
+      "cut_type": 0.2851,
+      "reward_agency": 0.3976
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 9.9
+  },
+  {
+   "scenario": {
+    "index": 2,
+    "config": "one_strike",
+    "base": 0.0,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S2": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.05,
+     "R2": 0.05
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 0%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0135,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0115,
+      "cut_type": 0.0132,
+      "reward_agency": 0.0123
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0493,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0493,
+      "cut_type": 0.0503,
+      "reward_agency": 0.0503
+     },
+     "any_false_rejection": 0.046,
+     "sd_of_difference": {
+      "efficacy": 0.2597,
+      "agency_redundant": 0.2017,
+      "agency_pivotal": 0.2596,
+      "cut_type": 0.2597,
+      "reward_agency": 0.3725
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 9.8
+  },
+  {
+   "scenario": {
+    "index": 3,
+    "config": "one_strike",
+    "base": 0.0,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S2": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.05,
+     "R2": 0.05
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 0%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0137,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0124,
+      "cut_type": 0.0127,
+      "reward_agency": 0.0106
+     },
+     "power_unadjusted": {
+      "efficacy": 0.052,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0493,
+      "cut_type": 0.0503,
+      "reward_agency": 0.0477
+     },
+     "any_false_rejection": 0.0447,
+     "sd_of_difference": {
+      "efficacy": 0.4201,
+      "agency_redundant": 0.2966,
+      "agency_pivotal": 0.4202,
+      "cut_type": 0.4198,
+      "reward_agency": 0.6083
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.0
+  },
+  {
+   "scenario": {
+    "index": 4,
+    "config": "one_strike",
+    "base": 0.0,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S2": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.05,
+     "R2": 0.05
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 0%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.012,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0132,
+      "cut_type": 0.013,
+      "reward_agency": 0.0103
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0492,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0519,
+      "cut_type": 0.05,
+      "reward_agency": 0.0536
+     },
+     "any_false_rejection": 0.0441,
+     "sd_of_difference": {
+      "efficacy": 0.3639,
+      "agency_redundant": 0.2966,
+      "agency_pivotal": 0.3645,
+      "cut_type": 0.3638,
+      "reward_agency": 0.5427
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.0
+  },
+  {
+   "scenario": {
+    "index": 5,
+    "config": "one_strike",
+    "base": 0.1,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S2": 0.2,
+     "S4": 0.2,
+     "S5": 0.2,
+     "R1": 0.15000000000000002,
+     "R2": 0.15000000000000002
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 10%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.014,
+      "agency_redundant": 0.9995,
+      "agency_pivotal": 0.0118,
+      "cut_type": 0.0124,
+      "reward_agency": 0.0099
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0507,
+      "agency_redundant": 0.9999,
+      "agency_pivotal": 0.0491,
+      "cut_type": 0.0514,
+      "reward_agency": 0.0474
+     },
+     "any_false_rejection": 0.0446,
+     "sd_of_difference": {
+      "efficacy": 0.3251,
+      "agency_redundant": 0.2873,
+      "agency_pivotal": 0.325,
+      "cut_type": 0.325,
+      "reward_agency": 0.5801
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.0
+  },
+  {
+   "scenario": {
+    "index": 6,
+    "config": "one_strike",
+    "base": 0.1,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S2": 0.2,
+     "S4": 0.2,
+     "S5": 0.2,
+     "R1": 0.15000000000000002,
+     "R2": 0.15000000000000002
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 10%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0126,
+      "agency_redundant": 0.9932,
+      "agency_pivotal": 0.0127,
+      "cut_type": 0.0118,
+      "reward_agency": 0.0121
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0488,
+      "agency_redundant": 0.9991,
+      "agency_pivotal": 0.0497,
+      "cut_type": 0.0528,
+      "reward_agency": 0.0512
+     },
+     "any_false_rejection": 0.0445,
+     "sd_of_difference": {
+      "efficacy": 0.3956,
+      "agency_redundant": 0.3448,
+      "agency_pivotal": 0.396,
+      "cut_type": 0.3959,
+      "reward_agency": 0.6953
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 11.0
+  },
+  {
+   "scenario": {
+    "index": 7,
+    "config": "one_strike",
+    "base": 0.1,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S2": 0.2,
+     "S4": 0.2,
+     "S5": 0.2,
+     "R1": 0.15000000000000002,
+     "R2": 0.15000000000000002
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 10%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0122,
+      "agency_redundant": 0.9988,
+      "agency_pivotal": 0.0113,
+      "cut_type": 0.0127,
+      "reward_agency": 0.0117
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0471,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.0474,
+      "cut_type": 0.0502,
+      "reward_agency": 0.0499
+     },
+     "any_false_rejection": 0.0434,
+     "sd_of_difference": {
+      "efficacy": 0.3491,
+      "agency_redundant": 0.3119,
+      "agency_pivotal": 0.3487,
+      "cut_type": 0.349,
+      "reward_agency": 0.6209
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 10.9
+  },
+  {
+   "scenario": {
+    "index": 8,
+    "config": "one_strike",
+    "base": 0.1,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S2": 0.2,
+     "S4": 0.2,
+     "S5": 0.2,
+     "R1": 0.15000000000000002,
+     "R2": 0.15000000000000002
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 10%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0115,
+      "agency_redundant": 0.8049,
+      "agency_pivotal": 0.0132,
+      "cut_type": 0.013,
+      "reward_agency": 0.0095
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0491,
+      "agency_redundant": 0.9361,
+      "agency_pivotal": 0.0532,
+      "cut_type": 0.0481,
+      "reward_agency": 0.0486
+     },
+     "any_false_rejection": 0.0427,
+     "sd_of_difference": {
+      "efficacy": 0.5607,
+      "agency_redundant": 0.4954,
+      "agency_pivotal": 0.5608,
+      "cut_type": 0.5606,
+      "reward_agency": 1.0004
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.2
+  },
+  {
+   "scenario": {
+    "index": 9,
+    "config": "one_strike",
+    "base": 0.1,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S2": 0.2,
+     "S4": 0.2,
+     "S5": 0.2,
+     "R1": 0.15000000000000002,
+     "R2": 0.15000000000000002
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 10%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0098,
+      "agency_redundant": 0.9242,
+      "agency_pivotal": 0.0115,
+      "cut_type": 0.0114,
+      "reward_agency": 0.0108
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0449,
+      "agency_redundant": 0.9812,
+      "agency_pivotal": 0.0521,
+      "cut_type": 0.051,
+      "reward_agency": 0.0469
+     },
+     "any_false_rejection": 0.0404,
+     "sd_of_difference": {
+      "efficacy": 0.4708,
+      "agency_redundant": 0.4285,
+      "agency_pivotal": 0.4708,
+      "cut_type": 0.4711,
+      "reward_agency": 0.8516
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.3
+  },
+  {
+   "scenario": {
+    "index": 10,
+    "config": "one_strike",
+    "base": 0.25,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S2": 0.35,
+     "S4": 0.35,
+     "S5": 0.35,
+     "R1": 0.3,
+     "R2": 0.3
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 25%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0125,
+      "agency_redundant": 0.9775,
+      "agency_pivotal": 0.0115,
+      "cut_type": 0.0105,
+      "reward_agency": 0.0129
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0517,
+      "agency_redundant": 0.9957,
+      "agency_pivotal": 0.0494,
+      "cut_type": 0.0486,
+      "reward_agency": 0.0502
+     },
+     "any_false_rejection": 0.0433,
+     "sd_of_difference": {
+      "efficacy": 0.3881,
+      "agency_redundant": 0.3704,
+      "agency_pivotal": 0.3882,
+      "cut_type": 0.3879,
+      "reward_agency": 0.7456
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.4
+  },
+  {
+   "scenario": {
+    "index": 11,
+    "config": "one_strike",
+    "base": 0.25,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S2": 0.35,
+     "S4": 0.35,
+     "S5": 0.35,
+     "R1": 0.3,
+     "R2": 0.3
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 25%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0117,
+      "agency_redundant": 0.8658,
+      "agency_pivotal": 0.0116,
+      "cut_type": 0.0106,
+      "reward_agency": 0.0131
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0493,
+      "agency_redundant": 0.9585,
+      "agency_pivotal": 0.0494,
+      "cut_type": 0.0471,
+      "reward_agency": 0.0528
+     },
+     "any_false_rejection": 0.0433,
+     "sd_of_difference": {
+      "efficacy": 0.4845,
+      "agency_redundant": 0.4594,
+      "agency_pivotal": 0.4843,
+      "cut_type": 0.4845,
+      "reward_agency": 0.9252
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 11.9
+  },
+  {
+   "scenario": {
+    "index": 12,
+    "config": "one_strike",
+    "base": 0.25,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S2": 0.35,
+     "S4": 0.35,
+     "S5": 0.35,
+     "R1": 0.3,
+     "R2": 0.3
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 25%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.01,
+      "agency_redundant": 0.9491,
+      "agency_pivotal": 0.0127,
+      "cut_type": 0.0115,
+      "reward_agency": 0.0131
+     },
+     "power_unadjusted": {
+      "efficacy": 0.048,
+      "agency_redundant": 0.9876,
+      "agency_pivotal": 0.0504,
+      "cut_type": 0.048,
+      "reward_agency": 0.0499
+     },
+     "any_false_rejection": 0.0441,
+     "sd_of_difference": {
+      "efficacy": 0.4177,
+      "agency_redundant": 0.3996,
+      "agency_pivotal": 0.4176,
+      "cut_type": 0.4177,
+      "reward_agency": 0.8012
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 11.9
+  },
+  {
+   "scenario": {
+    "index": 13,
+    "config": "one_strike",
+    "base": 0.25,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S2": 0.35,
+     "S4": 0.35,
+     "S5": 0.35,
+     "R1": 0.3,
+     "R2": 0.3
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 25%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0096,
+      "agency_redundant": 0.5283,
+      "agency_pivotal": 0.0114,
+      "cut_type": 0.0127,
+      "reward_agency": 0.0106
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0489,
+      "agency_redundant": 0.7589,
+      "agency_pivotal": 0.0462,
+      "cut_type": 0.0555,
+      "reward_agency": 0.0461
+     },
+     "any_false_rejection": 0.041,
+     "sd_of_difference": {
+      "efficacy": 0.6691,
+      "agency_redundant": 0.6389,
+      "agency_pivotal": 0.6692,
+      "cut_type": 0.6688,
+      "reward_agency": 1.2851
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0106,
+      "agency_redundant": 0.6885,
+      "agency_pivotal": 0.0114,
+      "cut_type": 0.0122,
+      "reward_agency": 0.0113
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0474,
+      "agency_redundant": 0.8712,
+      "agency_pivotal": 0.0494,
+      "cut_type": 0.0522,
+      "reward_agency": 0.0524
+     },
+     "any_false_rejection": 0.0417,
+     "sd_of_difference": {
+      "efficacy": 0.6693,
+      "agency_redundant": 0.639,
+      "agency_pivotal": 0.6694,
+      "cut_type": 0.6693,
+      "reward_agency": 1.285
+     }
+    },
+    {
+     "n": 500,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0132,
+      "agency_redundant": 0.8031,
+      "agency_pivotal": 0.0114,
+      "cut_type": 0.0125,
+      "reward_agency": 0.0118
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0525,
+      "agency_redundant": 0.9339,
+      "agency_pivotal": 0.0511,
+      "cut_type": 0.0504,
+      "reward_agency": 0.0455
+     },
+     "any_false_rejection": 0.045,
+     "sd_of_difference": {
+      "efficacy": 0.6696,
+      "agency_redundant": 0.6389,
+      "agency_pivotal": 0.6694,
+      "cut_type": 0.6692,
+      "reward_agency": 1.286
+     }
+    }
+   ],
+   "n_needed": 500,
+   "seconds": 24.0
+  },
+  {
+   "scenario": {
+    "index": 14,
+    "config": "one_strike",
+    "base": 0.25,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S2": 0.35,
+     "S4": 0.35,
+     "S5": 0.35,
+     "R1": 0.3,
+     "R2": 0.3
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 25%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0118,
+      "agency_redundant": 0.7308,
+      "agency_pivotal": 0.0123,
+      "cut_type": 0.0111,
+      "reward_agency": 0.0116
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0505,
+      "agency_redundant": 0.894,
+      "agency_pivotal": 0.052,
+      "cut_type": 0.0482,
+      "reward_agency": 0.0482
+     },
+     "any_false_rejection": 0.0422,
+     "sd_of_difference": {
+      "efficacy": 0.5506,
+      "agency_redundant": 0.531,
+      "agency_pivotal": 0.5506,
+      "cut_type": 0.5504,
+      "reward_agency": 1.0622
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.012,
+      "agency_redundant": 0.868,
+      "agency_pivotal": 0.0125,
+      "cut_type": 0.0106,
+      "reward_agency": 0.0111
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0497,
+      "agency_redundant": 0.96,
+      "agency_pivotal": 0.0492,
+      "cut_type": 0.049,
+      "reward_agency": 0.0499
+     },
+     "any_false_rejection": 0.0425,
+     "sd_of_difference": {
+      "efficacy": 0.5503,
+      "agency_redundant": 0.5305,
+      "agency_pivotal": 0.5502,
+      "cut_type": 0.5501,
+      "reward_agency": 1.0622
+     }
+    }
+   ],
+   "n_needed": 400,
+   "seconds": 15.4
+  },
+  {
+   "scenario": {
+    "index": 15,
+    "config": "one_strike",
+    "base": 0.45,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S2": 0.55,
+     "S4": 0.55,
+     "S5": 0.55,
+     "R1": 0.5,
+     "R2": 0.5
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 45%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0133,
+      "agency_redundant": 0.9451,
+      "agency_pivotal": 0.0148,
+      "cut_type": 0.0131,
+      "reward_agency": 0.0117
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0531,
+      "agency_redundant": 0.9871,
+      "agency_pivotal": 0.0532,
+      "cut_type": 0.0521,
+      "reward_agency": 0.0533
+     },
+     "any_false_rejection": 0.0478,
+     "sd_of_difference": {
+      "efficacy": 0.4064,
+      "agency_redundant": 0.4061,
+      "agency_pivotal": 0.4063,
+      "cut_type": 0.4064,
+      "reward_agency": 0.8162
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.8
+  },
+  {
+   "scenario": {
+    "index": 16,
+    "config": "one_strike",
+    "base": 0.45,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S2": 0.55,
+     "S4": 0.55,
+     "S5": 0.55,
+     "R1": 0.5,
+     "R2": 0.5
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 45%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0135,
+      "agency_redundant": 0.7709,
+      "agency_pivotal": 0.0134,
+      "cut_type": 0.0114,
+      "reward_agency": 0.0124
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0514,
+      "agency_redundant": 0.9148,
+      "agency_pivotal": 0.0515,
+      "cut_type": 0.0477,
+      "reward_agency": 0.0516
+     },
+     "any_false_rejection": 0.0464,
+     "sd_of_difference": {
+      "efficacy": 0.5093,
+      "agency_redundant": 0.5093,
+      "agency_pivotal": 0.5095,
+      "cut_type": 0.5094,
+      "reward_agency": 1.0239
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0115,
+      "agency_redundant": 0.8935,
+      "agency_pivotal": 0.0112,
+      "cut_type": 0.011,
+      "reward_agency": 0.0126
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0475,
+      "agency_redundant": 0.9677,
+      "agency_pivotal": 0.0499,
+      "cut_type": 0.0499,
+      "reward_agency": 0.05
+     },
+     "any_false_rejection": 0.0422,
+     "sd_of_difference": {
+      "efficacy": 0.5096,
+      "agency_redundant": 0.5091,
+      "agency_pivotal": 0.5095,
+      "cut_type": 0.5096,
+      "reward_agency": 1.0235
+     }
+    }
+   ],
+   "n_needed": 400,
+   "seconds": 24.2
+  },
+  {
+   "scenario": {
+    "index": 17,
+    "config": "one_strike",
+    "base": 0.45,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S2": 0.55,
+     "S4": 0.55,
+     "S5": 0.55,
+     "R1": 0.5,
+     "R2": 0.5
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 45%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0108,
+      "agency_redundant": 0.896,
+      "agency_pivotal": 0.0139,
+      "cut_type": 0.0113,
+      "reward_agency": 0.0122
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0458,
+      "agency_redundant": 0.9711,
+      "agency_pivotal": 0.0538,
+      "cut_type": 0.0472,
+      "reward_agency": 0.0475
+     },
+     "any_false_rejection": 0.0431,
+     "sd_of_difference": {
+      "efficacy": 0.4371,
+      "agency_redundant": 0.4372,
+      "agency_pivotal": 0.437,
+      "cut_type": 0.4372,
+      "reward_agency": 0.8777
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 12.3
+  },
+  {
+   "scenario": {
+    "index": 18,
+    "config": "one_strike",
+    "base": 0.45,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S2": 0.55,
+     "S4": 0.55,
+     "S5": 0.55,
+     "R1": 0.5,
+     "R2": 0.5
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 45%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0126,
+      "agency_redundant": 0.4345,
+      "agency_pivotal": 0.0136,
+      "cut_type": 0.0103,
+      "reward_agency": 0.0127
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0522,
+      "agency_redundant": 0.6859,
+      "agency_pivotal": 0.0541,
+      "cut_type": 0.0447,
+      "reward_agency": 0.0503
+     },
+     "any_false_rejection": 0.045,
+     "sd_of_difference": {
+      "efficacy": 0.699,
+      "agency_redundant": 0.6985,
+      "agency_pivotal": 0.6988,
+      "cut_type": 0.6989,
+      "reward_agency": 1.4039
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0101,
+      "agency_redundant": 0.5944,
+      "agency_pivotal": 0.0118,
+      "cut_type": 0.0106,
+      "reward_agency": 0.0106
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0472,
+      "agency_redundant": 0.8046,
+      "agency_pivotal": 0.0507,
+      "cut_type": 0.0521,
+      "reward_agency": 0.0472
+     },
+     "any_false_rejection": 0.0399,
+     "sd_of_difference": {
+      "efficacy": 0.6989,
+      "agency_redundant": 0.6986,
+      "agency_pivotal": 0.6988,
+      "cut_type": 0.6988,
+      "reward_agency": 1.4036
+     }
+    },
+    {
+     "n": 500,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.011,
+      "agency_redundant": 0.7067,
+      "agency_pivotal": 0.0101,
+      "cut_type": 0.0126,
+      "reward_agency": 0.0129
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0489,
+      "agency_redundant": 0.8806,
+      "agency_pivotal": 0.0464,
+      "cut_type": 0.0476,
+      "reward_agency": 0.0486
+     },
+     "any_false_rejection": 0.0428,
+     "sd_of_difference": {
+      "efficacy": 0.6991,
+      "agency_redundant": 0.699,
+      "agency_pivotal": 0.6987,
+      "cut_type": 0.6994,
+      "reward_agency": 1.4043
+     }
+    },
+    {
+     "n": 600,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0121,
+      "agency_redundant": 0.8055,
+      "agency_pivotal": 0.012,
+      "cut_type": 0.0107,
+      "reward_agency": 0.0123
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0508,
+      "agency_redundant": 0.9313,
+      "agency_pivotal": 0.0514,
+      "cut_type": 0.0482,
+      "reward_agency": 0.0488
+     },
+     "any_false_rejection": 0.0434,
+     "sd_of_difference": {
+      "efficacy": 0.6989,
+      "agency_redundant": 0.6987,
+      "agency_pivotal": 0.6988,
+      "cut_type": 0.6991,
+      "reward_agency": 1.4044
+     }
+    }
+   ],
+   "n_needed": 600,
+   "seconds": 38.0
+  },
+  {
+   "scenario": {
+    "index": 19,
+    "config": "one_strike",
+    "base": 0.45,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S2": 0.55,
+     "S4": 0.55,
+     "S5": 0.55,
+     "R1": 0.5,
+     "R2": 0.5
+    },
+    "targets": [
+     "agency_redundant"
+    ],
+    "label": "one_strike, base 45%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.01,
+      "agency_redundant": 0.6485,
+      "agency_pivotal": 0.0106,
+      "cut_type": 0.0105,
+      "reward_agency": 0.0129
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0506,
+      "agency_redundant": 0.8437,
+      "agency_pivotal": 0.0475,
+      "cut_type": 0.0496,
+      "reward_agency": 0.0513
+     },
+     "any_false_rejection": 0.0405,
+     "sd_of_difference": {
+      "efficacy": 0.5716,
+      "agency_redundant": 0.5727,
+      "agency_pivotal": 0.5722,
+      "cut_type": 0.5717,
+      "reward_agency": 1.1481
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0104,
+      "agency_redundant": 0.8035,
+      "agency_pivotal": 0.0103,
+      "cut_type": 0.0117,
+      "reward_agency": 0.0109
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0483,
+      "agency_redundant": 0.9344,
+      "agency_pivotal": 0.0487,
+      "cut_type": 0.0512,
+      "reward_agency": 0.0492
+     },
+     "any_false_rejection": 0.04,
+     "sd_of_difference": {
+      "efficacy": 0.5719,
+      "agency_redundant": 0.573,
+      "agency_pivotal": 0.5718,
+      "cut_type": 0.5722,
+      "reward_agency": 1.1478
+     }
+    }
+   ],
+   "n_needed": 400,
+   "seconds": 14.0
+  },
+  {
+   "scenario": {
+    "index": 20,
+    "config": "reward_only",
+    "base": 0.0,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S1": 0.05,
+     "S2": 0.05,
+     "S3": 0.05,
+     "S4": 0.05,
+     "S5": 0.05,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 0%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0116,
+      "agency_redundant": 0.0123,
+      "agency_pivotal": 0.0107,
+      "cut_type": 0.0127,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0493,
+      "agency_redundant": 0.0528,
+      "agency_pivotal": 0.0475,
+      "cut_type": 0.0501,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0395,
+     "sd_of_difference": {
+      "efficacy": 0.1767,
+      "agency_redundant": 0.1767,
+      "agency_pivotal": 0.1769,
+      "cut_type": 0.1767,
+      "reward_agency": 0.3445
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.9
+  },
+  {
+   "scenario": {
+    "index": 21,
+    "config": "reward_only",
+    "base": 0.0,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S1": 0.05,
+     "S2": 0.05,
+     "S3": 0.05,
+     "S4": 0.05,
+     "S5": 0.05,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 0%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0135,
+      "agency_redundant": 0.0114,
+      "agency_pivotal": 0.0142,
+      "cut_type": 0.0126,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0522,
+      "agency_redundant": 0.0481,
+      "agency_pivotal": 0.0528,
+      "cut_type": 0.0496,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0435,
+     "sd_of_difference": {
+      "efficacy": 0.1986,
+      "agency_redundant": 0.199,
+      "agency_pivotal": 0.1984,
+      "cut_type": 0.199,
+      "reward_agency": 0.4028
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 9.0
+  },
+  {
+   "scenario": {
+    "index": 22,
+    "config": "reward_only",
+    "base": 0.0,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S1": 0.05,
+     "S2": 0.05,
+     "S3": 0.05,
+     "S4": 0.05,
+     "S5": 0.05,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 0%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0147,
+      "agency_redundant": 0.0115,
+      "agency_pivotal": 0.013,
+      "cut_type": 0.0139,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0507,
+      "agency_redundant": 0.0508,
+      "agency_pivotal": 0.0485,
+      "cut_type": 0.0523,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0441,
+     "sd_of_difference": {
+      "efficacy": 0.1862,
+      "agency_redundant": 0.1863,
+      "agency_pivotal": 0.1861,
+      "cut_type": 0.1862,
+      "reward_agency": 0.4031
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 8.4
+  },
+  {
+   "scenario": {
+    "index": 23,
+    "config": "reward_only",
+    "base": 0.0,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S1": 0.05,
+     "S2": 0.05,
+     "S3": 0.05,
+     "S4": 0.05,
+     "S5": 0.05,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 0%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.014,
+      "agency_redundant": 0.0132,
+      "agency_pivotal": 0.0118,
+      "cut_type": 0.0127,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0508,
+      "agency_redundant": 0.0526,
+      "agency_pivotal": 0.0462,
+      "cut_type": 0.0508,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0441,
+     "sd_of_difference": {
+      "efficacy": 0.3041,
+      "agency_redundant": 0.3043,
+      "agency_pivotal": 0.3043,
+      "cut_type": 0.3043,
+      "reward_agency": 0.5939
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 5.4
+  },
+  {
+   "scenario": {
+    "index": 24,
+    "config": "reward_only",
+    "base": 0.0,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S1": 0.05,
+     "S2": 0.05,
+     "S3": 0.05,
+     "S4": 0.05,
+     "S5": 0.05,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 0%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0105,
+      "agency_redundant": 0.0096,
+      "agency_pivotal": 0.0106,
+      "cut_type": 0.0084,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0506,
+      "agency_redundant": 0.0489,
+      "agency_pivotal": 0.0516,
+      "cut_type": 0.0478,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0327,
+     "sd_of_difference": {
+      "efficacy": 0.2714,
+      "agency_redundant": 0.2713,
+      "agency_pivotal": 0.2713,
+      "cut_type": 0.271,
+      "reward_agency": 0.5931
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 5.4
+  },
+  {
+   "scenario": {
+    "index": 25,
+    "config": "reward_only",
+    "base": 0.1,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S1": 0.15000000000000002,
+     "S2": 0.15000000000000002,
+     "S3": 0.15000000000000002,
+     "S4": 0.15000000000000002,
+     "S5": 0.15000000000000002,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 10%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0124,
+      "agency_redundant": 0.0135,
+      "agency_pivotal": 0.0128,
+      "cut_type": 0.0109,
+      "reward_agency": 0.9997
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0453,
+      "agency_redundant": 0.049,
+      "agency_pivotal": 0.0522,
+      "cut_type": 0.0474,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0423,
+     "sd_of_difference": {
+      "efficacy": 0.2902,
+      "agency_redundant": 0.29,
+      "agency_pivotal": 0.2902,
+      "cut_type": 0.2902,
+      "reward_agency": 0.5743
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 5.7
+  },
+  {
+   "scenario": {
+    "index": 26,
+    "config": "reward_only",
+    "base": 0.1,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S1": 0.15000000000000002,
+     "S2": 0.15000000000000002,
+     "S3": 0.15000000000000002,
+     "S4": 0.15000000000000002,
+     "S5": 0.15000000000000002,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 10%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0098,
+      "agency_redundant": 0.0117,
+      "agency_pivotal": 0.012,
+      "cut_type": 0.0123,
+      "reward_agency": 0.991
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0452,
+      "agency_redundant": 0.0475,
+      "agency_pivotal": 0.049,
+      "cut_type": 0.0488,
+      "reward_agency": 0.9992
+     },
+     "any_false_rejection": 0.0383,
+     "sd_of_difference": {
+      "efficacy": 0.3479,
+      "agency_redundant": 0.3479,
+      "agency_pivotal": 0.3477,
+      "cut_type": 0.3476,
+      "reward_agency": 0.6898
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 10.2
+  },
+  {
+   "scenario": {
+    "index": 27,
+    "config": "reward_only",
+    "base": 0.1,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S1": 0.15000000000000002,
+     "S2": 0.15000000000000002,
+     "S3": 0.15000000000000002,
+     "S4": 0.15000000000000002,
+     "S5": 0.15000000000000002,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 10%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0126,
+      "agency_redundant": 0.0147,
+      "agency_pivotal": 0.0119,
+      "cut_type": 0.0115,
+      "reward_agency": 0.9986
+     },
+     "power_unadjusted": {
+      "efficacy": 0.046,
+      "agency_redundant": 0.0506,
+      "agency_pivotal": 0.0464,
+      "cut_type": 0.0515,
+      "reward_agency": 0.9998
+     },
+     "any_false_rejection": 0.043,
+     "sd_of_difference": {
+      "efficacy": 0.3104,
+      "agency_redundant": 0.3105,
+      "agency_pivotal": 0.3104,
+      "cut_type": 0.3105,
+      "reward_agency": 0.6236
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 10.4
+  },
+  {
+   "scenario": {
+    "index": 28,
+    "config": "reward_only",
+    "base": 0.1,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S1": 0.15000000000000002,
+     "S2": 0.15000000000000002,
+     "S3": 0.15000000000000002,
+     "S4": 0.15000000000000002,
+     "S5": 0.15000000000000002,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 10%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0111,
+      "agency_redundant": 0.0117,
+      "agency_pivotal": 0.0122,
+      "cut_type": 0.0101,
+      "reward_agency": 0.804
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0517,
+      "agency_redundant": 0.0511,
+      "agency_pivotal": 0.0483,
+      "cut_type": 0.0484,
+      "reward_agency": 0.931
+     },
+     "any_false_rejection": 0.0396,
+     "sd_of_difference": {
+      "efficacy": 0.5003,
+      "agency_redundant": 0.5002,
+      "agency_pivotal": 0.5001,
+      "cut_type": 0.5007,
+      "reward_agency": 0.9911
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.3
+  },
+  {
+   "scenario": {
+    "index": 29,
+    "config": "reward_only",
+    "base": 0.1,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S1": 0.15000000000000002,
+     "S2": 0.15000000000000002,
+     "S3": 0.15000000000000002,
+     "S4": 0.15000000000000002,
+     "S5": 0.15000000000000002,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 10%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0119,
+      "agency_redundant": 0.0111,
+      "agency_pivotal": 0.0109,
+      "cut_type": 0.0123,
+      "reward_agency": 0.9184
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0508,
+      "agency_redundant": 0.0512,
+      "agency_pivotal": 0.0476,
+      "cut_type": 0.0488,
+      "reward_agency": 0.9786
+     },
+     "any_false_rejection": 0.0386,
+     "sd_of_difference": {
+      "efficacy": 0.4261,
+      "agency_redundant": 0.4259,
+      "agency_pivotal": 0.4258,
+      "cut_type": 0.4259,
+      "reward_agency": 0.8573
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.6
+  },
+  {
+   "scenario": {
+    "index": 30,
+    "config": "reward_only",
+    "base": 0.25,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S1": 0.3,
+     "S2": 0.3,
+     "S3": 0.3,
+     "S4": 0.3,
+     "S5": 0.3,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 25%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0131,
+      "agency_redundant": 0.0121,
+      "agency_pivotal": 0.0128,
+      "cut_type": 0.0114,
+      "reward_agency": 0.9766
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0501,
+      "agency_redundant": 0.0487,
+      "agency_pivotal": 0.0513,
+      "cut_type": 0.0491,
+      "reward_agency": 0.996
+     },
+     "any_false_rejection": 0.042,
+     "sd_of_difference": {
+      "efficacy": 0.3729,
+      "agency_redundant": 0.3726,
+      "agency_pivotal": 0.3727,
+      "cut_type": 0.3729,
+      "reward_agency": 0.7409
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.7
+  },
+  {
+   "scenario": {
+    "index": 31,
+    "config": "reward_only",
+    "base": 0.25,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S1": 0.3,
+     "S2": 0.3,
+     "S3": 0.3,
+     "S4": 0.3,
+     "S5": 0.3,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 25%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0121,
+      "agency_redundant": 0.0133,
+      "agency_pivotal": 0.0113,
+      "cut_type": 0.0111,
+      "reward_agency": 0.8651
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0492,
+      "agency_redundant": 0.0503,
+      "agency_pivotal": 0.0486,
+      "cut_type": 0.043,
+      "reward_agency": 0.9575
+     },
+     "any_false_rejection": 0.0406,
+     "sd_of_difference": {
+      "efficacy": 0.4627,
+      "agency_redundant": 0.4626,
+      "agency_pivotal": 0.4627,
+      "cut_type": 0.4628,
+      "reward_agency": 0.9197
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 12.1
+  },
+  {
+   "scenario": {
+    "index": 32,
+    "config": "reward_only",
+    "base": 0.25,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S1": 0.3,
+     "S2": 0.3,
+     "S3": 0.3,
+     "S4": 0.3,
+     "S5": 0.3,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 25%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0132,
+      "agency_redundant": 0.0111,
+      "agency_pivotal": 0.013,
+      "cut_type": 0.0105,
+      "reward_agency": 0.954
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0472,
+      "agency_redundant": 0.0469,
+      "agency_pivotal": 0.0521,
+      "cut_type": 0.0467,
+      "reward_agency": 0.9906
+     },
+     "any_false_rejection": 0.0404,
+     "sd_of_difference": {
+      "efficacy": 0.4011,
+      "agency_redundant": 0.401,
+      "agency_pivotal": 0.4009,
+      "cut_type": 0.4011,
+      "reward_agency": 0.7994
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 11.9
+  },
+  {
+   "scenario": {
+    "index": 33,
+    "config": "reward_only",
+    "base": 0.25,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S1": 0.3,
+     "S2": 0.3,
+     "S3": 0.3,
+     "S4": 0.3,
+     "S5": 0.3,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 25%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0137,
+      "agency_redundant": 0.01,
+      "agency_pivotal": 0.0108,
+      "cut_type": 0.0129,
+      "reward_agency": 0.5187
+     },
+     "power_unadjusted": {
+      "efficacy": 0.05,
+      "agency_redundant": 0.0488,
+      "agency_pivotal": 0.0509,
+      "cut_type": 0.0499,
+      "reward_agency": 0.7548
+     },
+     "any_false_rejection": 0.0406,
+     "sd_of_difference": {
+      "efficacy": 0.6426,
+      "agency_redundant": 0.643,
+      "agency_pivotal": 0.6427,
+      "cut_type": 0.6429,
+      "reward_agency": 1.2783
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0129,
+      "agency_redundant": 0.0123,
+      "agency_pivotal": 0.0105,
+      "cut_type": 0.0128,
+      "reward_agency": 0.6784
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0493,
+      "agency_redundant": 0.048,
+      "agency_pivotal": 0.0511,
+      "cut_type": 0.0486,
+      "reward_agency": 0.8654
+     },
+     "any_false_rejection": 0.0408,
+     "sd_of_difference": {
+      "efficacy": 0.6428,
+      "agency_redundant": 0.6427,
+      "agency_pivotal": 0.6426,
+      "cut_type": 0.6431,
+      "reward_agency": 1.279
+     }
+    },
+    {
+     "n": 500,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0111,
+      "agency_redundant": 0.0116,
+      "agency_pivotal": 0.0134,
+      "cut_type": 0.0129,
+      "reward_agency": 0.8032
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0462,
+      "agency_redundant": 0.0494,
+      "agency_pivotal": 0.0522,
+      "cut_type": 0.051,
+      "reward_agency": 0.9282
+     },
+     "any_false_rejection": 0.0422,
+     "sd_of_difference": {
+      "efficacy": 0.6429,
+      "agency_redundant": 0.6431,
+      "agency_pivotal": 0.6431,
+      "cut_type": 0.6432,
+      "reward_agency": 1.2788
+     }
+    }
+   ],
+   "n_needed": 500,
+   "seconds": 26.7
+  },
+  {
+   "scenario": {
+    "index": 34,
+    "config": "reward_only",
+    "base": 0.25,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S1": 0.3,
+     "S2": 0.3,
+     "S3": 0.3,
+     "S4": 0.3,
+     "S5": 0.3,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 25%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0117,
+      "agency_redundant": 0.0106,
+      "agency_pivotal": 0.0129,
+      "cut_type": 0.01,
+      "reward_agency": 0.7318
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0493,
+      "agency_redundant": 0.0478,
+      "agency_pivotal": 0.0503,
+      "cut_type": 0.049,
+      "reward_agency": 0.8959
+     },
+     "any_false_rejection": 0.039,
+     "sd_of_difference": {
+      "efficacy": 0.5314,
+      "agency_redundant": 0.5309,
+      "agency_pivotal": 0.5311,
+      "cut_type": 0.5311,
+      "reward_agency": 1.0612
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0136,
+      "agency_redundant": 0.0111,
+      "agency_pivotal": 0.0117,
+      "cut_type": 0.0138,
+      "reward_agency": 0.8739
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0526,
+      "agency_redundant": 0.051,
+      "agency_pivotal": 0.0498,
+      "cut_type": 0.0511,
+      "reward_agency": 0.9611
+     },
+     "any_false_rejection": 0.0429,
+     "sd_of_difference": {
+      "efficacy": 0.5317,
+      "agency_redundant": 0.5315,
+      "agency_pivotal": 0.5316,
+      "cut_type": 0.5315,
+      "reward_agency": 1.0619
+     }
+    }
+   ],
+   "n_needed": 400,
+   "seconds": 15.7
+  },
+  {
+   "scenario": {
+    "index": 35,
+    "config": "reward_only",
+    "base": 0.45,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S1": 0.5,
+     "S2": 0.5,
+     "S3": 0.5,
+     "S4": 0.5,
+     "S5": 0.5,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 45%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0139,
+      "agency_redundant": 0.0125,
+      "agency_pivotal": 0.0143,
+      "cut_type": 0.0144,
+      "reward_agency": 0.9486
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0517,
+      "agency_redundant": 0.0555,
+      "agency_pivotal": 0.0511,
+      "cut_type": 0.0521,
+      "reward_agency": 0.9886
+     },
+     "any_false_rejection": 0.0471,
+     "sd_of_difference": {
+      "efficacy": 0.408,
+      "agency_redundant": 0.408,
+      "agency_pivotal": 0.4079,
+      "cut_type": 0.4079,
+      "reward_agency": 0.8118
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.2
+  },
+  {
+   "scenario": {
+    "index": 36,
+    "config": "reward_only",
+    "base": 0.45,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S1": 0.5,
+     "S2": 0.5,
+     "S3": 0.5,
+     "S4": 0.5,
+     "S5": 0.5,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 45%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0128,
+      "agency_redundant": 0.0139,
+      "agency_pivotal": 0.0111,
+      "cut_type": 0.0125,
+      "reward_agency": 0.7782
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0479,
+      "agency_redundant": 0.0559,
+      "agency_pivotal": 0.0468,
+      "cut_type": 0.0528,
+      "reward_agency": 0.9216
+     },
+     "any_false_rejection": 0.0417,
+     "sd_of_difference": {
+      "efficacy": 0.5119,
+      "agency_redundant": 0.5121,
+      "agency_pivotal": 0.512,
+      "cut_type": 0.5121,
+      "reward_agency": 1.0175
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0107,
+      "agency_redundant": 0.0113,
+      "agency_pivotal": 0.0129,
+      "cut_type": 0.0113,
+      "reward_agency": 0.8929
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0464,
+      "agency_redundant": 0.0503,
+      "agency_pivotal": 0.0505,
+      "cut_type": 0.0503,
+      "reward_agency": 0.9682
+     },
+     "any_false_rejection": 0.0397,
+     "sd_of_difference": {
+      "efficacy": 0.5123,
+      "agency_redundant": 0.5123,
+      "agency_pivotal": 0.5119,
+      "cut_type": 0.5122,
+      "reward_agency": 1.0185
+     }
+    }
+   ],
+   "n_needed": 400,
+   "seconds": 28.9
+  },
+  {
+   "scenario": {
+    "index": 37,
+    "config": "reward_only",
+    "base": 0.45,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S1": 0.5,
+     "S2": 0.5,
+     "S3": 0.5,
+     "S4": 0.5,
+     "S5": 0.5,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 45%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0117,
+      "agency_redundant": 0.0123,
+      "agency_pivotal": 0.0122,
+      "cut_type": 0.0135,
+      "reward_agency": 0.8971
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0497,
+      "agency_redundant": 0.0493,
+      "agency_pivotal": 0.0503,
+      "cut_type": 0.0499,
+      "reward_agency": 0.9722
+     },
+     "any_false_rejection": 0.0436,
+     "sd_of_difference": {
+      "efficacy": 0.4388,
+      "agency_redundant": 0.4388,
+      "agency_pivotal": 0.4389,
+      "cut_type": 0.4391,
+      "reward_agency": 0.8735
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 13.1
+  },
+  {
+   "scenario": {
+    "index": 38,
+    "config": "reward_only",
+    "base": 0.45,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S1": 0.5,
+     "S2": 0.5,
+     "S3": 0.5,
+     "S4": 0.5,
+     "S5": 0.5,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 45%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0118,
+      "agency_redundant": 0.0129,
+      "agency_pivotal": 0.012,
+      "cut_type": 0.0117,
+      "reward_agency": 0.4418
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0498,
+      "agency_redundant": 0.0516,
+      "agency_pivotal": 0.0487,
+      "cut_type": 0.0491,
+      "reward_agency": 0.6868
+     },
+     "any_false_rejection": 0.042,
+     "sd_of_difference": {
+      "efficacy": 0.702,
+      "agency_redundant": 0.7021,
+      "agency_pivotal": 0.7018,
+      "cut_type": 0.7017,
+      "reward_agency": 1.398
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0117,
+      "agency_redundant": 0.0123,
+      "agency_pivotal": 0.0142,
+      "cut_type": 0.0124,
+      "reward_agency": 0.5855
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0515,
+      "agency_redundant": 0.0545,
+      "agency_pivotal": 0.0498,
+      "cut_type": 0.0479,
+      "reward_agency": 0.8075
+     },
+     "any_false_rejection": 0.0423,
+     "sd_of_difference": {
+      "efficacy": 0.7023,
+      "agency_redundant": 0.7023,
+      "agency_pivotal": 0.702,
+      "cut_type": 0.7021,
+      "reward_agency": 1.397
+     }
+    },
+    {
+     "n": 500,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0148,
+      "agency_redundant": 0.0119,
+      "agency_pivotal": 0.0104,
+      "cut_type": 0.0132,
+      "reward_agency": 0.7233
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0529,
+      "agency_redundant": 0.0488,
+      "agency_pivotal": 0.049,
+      "cut_type": 0.0532,
+      "reward_agency": 0.8862
+     },
+     "any_false_rejection": 0.0421,
+     "sd_of_difference": {
+      "efficacy": 0.7024,
+      "agency_redundant": 0.7022,
+      "agency_pivotal": 0.7023,
+      "cut_type": 0.7022,
+      "reward_agency": 1.3966
+     }
+    },
+    {
+     "n": 600,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0127,
+      "agency_redundant": 0.012,
+      "agency_pivotal": 0.0101,
+      "cut_type": 0.0115,
+      "reward_agency": 0.8016
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0505,
+      "agency_redundant": 0.0492,
+      "agency_pivotal": 0.05,
+      "cut_type": 0.0479,
+      "reward_agency": 0.9316
+     },
+     "any_false_rejection": 0.0395,
+     "sd_of_difference": {
+      "efficacy": 0.7024,
+      "agency_redundant": 0.7023,
+      "agency_pivotal": 0.7024,
+      "cut_type": 0.7025,
+      "reward_agency": 1.3976
+     }
+    }
+   ],
+   "n_needed": 600,
+   "seconds": 40.1
+  },
+  {
+   "scenario": {
+    "index": 39,
+    "config": "reward_only",
+    "base": 0.45,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S1": 0.5,
+     "S2": 0.5,
+     "S3": 0.5,
+     "S4": 0.5,
+     "S5": 0.5,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "reward_only, base 45%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0097,
+      "agency_redundant": 0.01,
+      "agency_pivotal": 0.0117,
+      "cut_type": 0.0134,
+      "reward_agency": 0.6575
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0472,
+      "agency_redundant": 0.0483,
+      "agency_pivotal": 0.0501,
+      "cut_type": 0.0511,
+      "reward_agency": 0.8501
+     },
+     "any_false_rejection": 0.0387,
+     "sd_of_difference": {
+      "efficacy": 0.5741,
+      "agency_redundant": 0.5741,
+      "agency_pivotal": 0.5739,
+      "cut_type": 0.574,
+      "reward_agency": 1.1448
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0134,
+      "agency_redundant": 0.0149,
+      "agency_pivotal": 0.0132,
+      "cut_type": 0.0137,
+      "reward_agency": 0.8068
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0517,
+      "agency_redundant": 0.0551,
+      "agency_pivotal": 0.0531,
+      "cut_type": 0.0541,
+      "reward_agency": 0.9323
+     },
+     "any_false_rejection": 0.0453,
+     "sd_of_difference": {
+      "efficacy": 0.5743,
+      "agency_redundant": 0.574,
+      "agency_pivotal": 0.5744,
+      "cut_type": 0.574,
+      "reward_agency": 1.1463
+     }
+    }
+   ],
+   "n_needed": 400,
+   "seconds": 17.2
+  },
+  {
+   "scenario": {
+    "index": 40,
+    "config": "all_five",
+    "base": 0.0,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S5": 0.0,
+     "S2": 0.2,
+     "S4": 0.1,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 0%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 1.0,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 1.0,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 1.0,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 1.0,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.2874,
+      "agency_redundant": 0.1723,
+      "agency_pivotal": 0.2874,
+      "cut_type": 0.1723,
+      "reward_agency": 0.344
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.8
+  },
+  {
+   "scenario": {
+    "index": 41,
+    "config": "all_five",
+    "base": 0.0,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S5": 0.0,
+     "S2": 0.2,
+     "S4": 0.1,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 0%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9989,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.9988,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 0.999,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.9989,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.3453,
+      "agency_redundant": 0.2016,
+      "agency_pivotal": 0.3451,
+      "cut_type": 0.2016,
+      "reward_agency": 0.4032
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 9.8
+  },
+  {
+   "scenario": {
+    "index": 42,
+    "config": "all_five",
+    "base": 0.0,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S5": 0.0,
+     "S2": 0.2,
+     "S4": 0.1,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 0%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9995,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.9997,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9995,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.9998,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.3118,
+      "agency_redundant": 0.2015,
+      "agency_pivotal": 0.3117,
+      "cut_type": 0.2015,
+      "reward_agency": 0.4025
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 9.6
+  },
+  {
+   "scenario": {
+    "index": 43,
+    "config": "all_five",
+    "base": 0.0,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S5": 0.0,
+     "S2": 0.2,
+     "S4": 0.1,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 0%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9125,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.9213,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9264,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.9348,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.4953,
+      "agency_redundant": 0.2967,
+      "agency_pivotal": 0.4953,
+      "cut_type": 0.2967,
+      "reward_agency": 0.5936
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.2
+  },
+  {
+   "scenario": {
+    "index": 44,
+    "config": "all_five",
+    "base": 0.0,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S5": 0.0,
+     "S2": 0.2,
+     "S4": 0.1,
+     "R1": 0.1,
+     "R2": 0.0
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 0%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9787,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.9805,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9813,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.9837,
+      "cut_type": 1.0,
+      "reward_agency": 1.0
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.4288,
+      "agency_redundant": 0.2968,
+      "agency_pivotal": 0.4284,
+      "cut_type": 0.2968,
+      "reward_agency": 0.5937
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.1
+  },
+  {
+   "scenario": {
+    "index": 45,
+    "config": "all_five",
+    "base": 0.1,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S5": 0.1,
+     "S2": 0.30000000000000004,
+     "S4": 0.2,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 10%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9979,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.997,
+      "cut_type": 0.9999,
+      "reward_agency": 0.9999
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9983,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 0.9974,
+      "cut_type": 0.9999,
+      "reward_agency": 0.9999
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.3495,
+      "agency_redundant": 0.287,
+      "agency_pivotal": 0.3497,
+      "cut_type": 0.2871,
+      "reward_agency": 0.5742
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 8.0
+  },
+  {
+   "scenario": {
+    "index": 46,
+    "config": "all_five",
+    "base": 0.1,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S5": 0.1,
+     "S2": 0.30000000000000004,
+     "S4": 0.2,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 10%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9751,
+      "agency_redundant": 0.9987,
+      "agency_pivotal": 0.9719,
+      "cut_type": 0.9984,
+      "reward_agency": 0.9991
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9789,
+      "agency_redundant": 0.9988,
+      "agency_pivotal": 0.9762,
+      "cut_type": 0.9986,
+      "reward_agency": 0.9993
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.4305,
+      "agency_redundant": 0.3451,
+      "agency_pivotal": 0.4308,
+      "cut_type": 0.3449,
+      "reward_agency": 0.6904
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 12.2
+  },
+  {
+   "scenario": {
+    "index": 47,
+    "config": "all_five",
+    "base": 0.1,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S5": 0.1,
+     "S2": 0.30000000000000004,
+     "S4": 0.2,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 10%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9949,
+      "agency_redundant": 0.9998,
+      "agency_pivotal": 0.9956,
+      "cut_type": 0.9995,
+      "reward_agency": 0.9997
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9953,
+      "agency_redundant": 0.9999,
+      "agency_pivotal": 0.9959,
+      "cut_type": 0.9995,
+      "reward_agency": 0.9997
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.3775,
+      "agency_redundant": 0.3118,
+      "agency_pivotal": 0.3775,
+      "cut_type": 0.3117,
+      "reward_agency": 0.6237
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 11.9
+  },
+  {
+   "scenario": {
+    "index": 48,
+    "config": "all_five",
+    "base": 0.1,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S5": 0.1,
+     "S2": 0.30000000000000004,
+     "S4": 0.2,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 10%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.7527,
+      "agency_redundant": 0.8927,
+      "agency_pivotal": 0.7414,
+      "cut_type": 0.8988,
+      "reward_agency": 0.8953
+     },
+     "power_unadjusted": {
+      "efficacy": 0.8069,
+      "agency_redundant": 0.9309,
+      "agency_pivotal": 0.8087,
+      "cut_type": 0.9353,
+      "reward_agency": 0.9368
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.6032,
+      "agency_redundant": 0.4955,
+      "agency_pivotal": 0.603,
+      "cut_type": 0.4953,
+      "reward_agency": 0.9909
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.8863,
+      "agency_redundant": 0.9738,
+      "agency_pivotal": 0.88,
+      "cut_type": 0.971,
+      "reward_agency": 0.9721
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9097,
+      "agency_redundant": 0.9814,
+      "agency_pivotal": 0.9024,
+      "cut_type": 0.979,
+      "reward_agency": 0.9798
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.6031,
+      "agency_redundant": 0.4952,
+      "agency_pivotal": 0.6032,
+      "cut_type": 0.4956,
+      "reward_agency": 0.991
+     }
+    }
+   ],
+   "n_needed": 400,
+   "seconds": 15.2
+  },
+  {
+   "scenario": {
+    "index": 49,
+    "config": "all_five",
+    "base": 0.1,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S3": 0.1,
+     "S1": 0.2,
+     "S5": 0.1,
+     "S2": 0.30000000000000004,
+     "S4": 0.2,
+     "R1": 0.2,
+     "R2": 0.1
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 10%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9065,
+      "agency_redundant": 0.9727,
+      "agency_pivotal": 0.9028,
+      "cut_type": 0.9728,
+      "reward_agency": 0.977
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9236,
+      "agency_redundant": 0.9782,
+      "agency_pivotal": 0.9206,
+      "cut_type": 0.9794,
+      "reward_agency": 0.9831
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.5055,
+      "agency_redundant": 0.4285,
+      "agency_pivotal": 0.5054,
+      "cut_type": 0.4287,
+      "reward_agency": 0.8573
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.7
+  },
+  {
+   "scenario": {
+    "index": 50,
+    "config": "all_five",
+    "base": 0.25,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S5": 0.25,
+     "S2": 0.45,
+     "S4": 0.35,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 25%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9879,
+      "agency_redundant": 0.9948,
+      "agency_pivotal": 0.9862,
+      "cut_type": 0.9954,
+      "reward_agency": 0.9954
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9893,
+      "agency_redundant": 0.9957,
+      "agency_pivotal": 0.9881,
+      "cut_type": 0.996,
+      "reward_agency": 0.9957
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.3967,
+      "agency_redundant": 0.3705,
+      "agency_pivotal": 0.397,
+      "cut_type": 0.3704,
+      "reward_agency": 0.741
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 9.0
+  },
+  {
+   "scenario": {
+    "index": 51,
+    "config": "all_five",
+    "base": 0.25,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S5": 0.25,
+     "S2": 0.45,
+     "S4": 0.35,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 25%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.909,
+      "agency_redundant": 0.9422,
+      "agency_pivotal": 0.8974,
+      "cut_type": 0.9428,
+      "reward_agency": 0.945
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9292,
+      "agency_redundant": 0.9578,
+      "agency_pivotal": 0.9226,
+      "cut_type": 0.9582,
+      "reward_agency": 0.9586
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.4967,
+      "agency_redundant": 0.4595,
+      "agency_pivotal": 0.4966,
+      "cut_type": 0.4599,
+      "reward_agency": 0.919
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 10.9
+  },
+  {
+   "scenario": {
+    "index": 52,
+    "config": "all_five",
+    "base": 0.25,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S5": 0.25,
+     "S2": 0.45,
+     "S4": 0.35,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 25%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9762,
+      "agency_redundant": 0.9862,
+      "agency_pivotal": 0.9748,
+      "cut_type": 0.9856,
+      "reward_agency": 0.9874
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9807,
+      "agency_redundant": 0.9882,
+      "agency_pivotal": 0.9807,
+      "cut_type": 0.9883,
+      "reward_agency": 0.988
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.4275,
+      "agency_redundant": 0.3995,
+      "agency_pivotal": 0.428,
+      "cut_type": 0.3993,
+      "reward_agency": 0.7989
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 11.6
+  },
+  {
+   "scenario": {
+    "index": 53,
+    "config": "all_five",
+    "base": 0.25,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S5": 0.25,
+     "S2": 0.45,
+     "S4": 0.35,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 25%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.5631,
+      "agency_redundant": 0.6287,
+      "agency_pivotal": 0.546,
+      "cut_type": 0.6216,
+      "reward_agency": 0.6304
+     },
+     "power_unadjusted": {
+      "efficacy": 0.6985,
+      "agency_redundant": 0.7567,
+      "agency_pivotal": 0.6946,
+      "cut_type": 0.7571,
+      "reward_agency": 0.7652
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.6841,
+      "agency_redundant": 0.6387,
+      "agency_pivotal": 0.6842,
+      "cut_type": 0.6389,
+      "reward_agency": 1.2784
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.7545,
+      "agency_redundant": 0.799,
+      "agency_pivotal": 0.7331,
+      "cut_type": 0.7995,
+      "reward_agency": 0.8016
+     },
+     "power_unadjusted": {
+      "efficacy": 0.8245,
+      "agency_redundant": 0.8676,
+      "agency_pivotal": 0.8217,
+      "cut_type": 0.8686,
+      "reward_agency": 0.8724
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.684,
+      "agency_redundant": 0.639,
+      "agency_pivotal": 0.6841,
+      "cut_type": 0.6388,
+      "reward_agency": 1.2776
+     }
+    },
+    {
+     "n": 500,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.858,
+      "agency_redundant": 0.9024,
+      "agency_pivotal": 0.8438,
+      "cut_type": 0.9016,
+      "reward_agency": 0.8979
+     },
+     "power_unadjusted": {
+      "efficacy": 0.8934,
+      "agency_redundant": 0.9329,
+      "agency_pivotal": 0.8896,
+      "cut_type": 0.9314,
+      "reward_agency": 0.9296
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.6845,
+      "agency_redundant": 0.6394,
+      "agency_pivotal": 0.684,
+      "cut_type": 0.6389,
+      "reward_agency": 1.2784
+     }
+    }
+   ],
+   "n_needed": 500,
+   "seconds": 23.4
+  },
+  {
+   "scenario": {
+    "index": 54,
+    "config": "all_five",
+    "base": 0.25,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S3": 0.25,
+     "S1": 0.35,
+     "S5": 0.25,
+     "S2": 0.45,
+     "S4": 0.35,
+     "R1": 0.35,
+     "R2": 0.25
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 25%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.8074,
+      "agency_redundant": 0.841,
+      "agency_pivotal": 0.7941,
+      "cut_type": 0.8472,
+      "reward_agency": 0.848
+     },
+     "power_unadjusted": {
+      "efficacy": 0.8591,
+      "agency_redundant": 0.8912,
+      "agency_pivotal": 0.8596,
+      "cut_type": 0.8957,
+      "reward_agency": 0.894
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.5624,
+      "agency_redundant": 0.5306,
+      "agency_pivotal": 0.5622,
+      "cut_type": 0.5306,
+      "reward_agency": 1.0612
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9208,
+      "agency_redundant": 0.947,
+      "agency_pivotal": 0.9209,
+      "cut_type": 0.9485,
+      "reward_agency": 0.949
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9359,
+      "agency_redundant": 0.9583,
+      "agency_pivotal": 0.9413,
+      "cut_type": 0.9618,
+      "reward_agency": 0.9616
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.5625,
+      "agency_redundant": 0.531,
+      "agency_pivotal": 0.5625,
+      "cut_type": 0.531,
+      "reward_agency": 1.0622
+     }
+    }
+   ],
+   "n_needed": 400,
+   "seconds": 14.1
+  },
+  {
+   "scenario": {
+    "index": 55,
+    "config": "all_five",
+    "base": 0.45,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S5": 0.45,
+     "S2": 0.65,
+     "S4": 0.55,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 45%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9873,
+      "agency_redundant": 0.9835,
+      "agency_pivotal": 0.9869,
+      "cut_type": 0.9838,
+      "reward_agency": 0.9869
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9896,
+      "agency_redundant": 0.9864,
+      "agency_pivotal": 0.9891,
+      "cut_type": 0.9864,
+      "reward_agency": 0.9877
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.3989,
+      "agency_redundant": 0.406,
+      "agency_pivotal": 0.3989,
+      "cut_type": 0.4058,
+      "reward_agency": 0.8122
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.8
+  },
+  {
+   "scenario": {
+    "index": 56,
+    "config": "all_five",
+    "base": 0.45,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S5": 0.45,
+     "S2": 0.65,
+     "S4": 0.55,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 45%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9041,
+      "agency_redundant": 0.8869,
+      "agency_pivotal": 0.892,
+      "cut_type": 0.8878,
+      "reward_agency": 0.8826
+     },
+     "power_unadjusted": {
+      "efficacy": 0.926,
+      "agency_redundant": 0.9186,
+      "agency_pivotal": 0.9278,
+      "cut_type": 0.9189,
+      "reward_agency": 0.9108
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.4981,
+      "agency_redundant": 0.5087,
+      "agency_pivotal": 0.4979,
+      "cut_type": 0.5088,
+      "reward_agency": 1.0183
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 11.5
+  },
+  {
+   "scenario": {
+    "index": 57,
+    "config": "all_five",
+    "base": 0.45,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S5": 0.45,
+     "S2": 0.65,
+     "S4": 0.55,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 45%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.974,
+      "agency_redundant": 0.9642,
+      "agency_pivotal": 0.9708,
+      "cut_type": 0.9643,
+      "reward_agency": 0.9711
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9784,
+      "agency_redundant": 0.9706,
+      "agency_pivotal": 0.9786,
+      "cut_type": 0.9712,
+      "reward_agency": 0.9764
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.429,
+      "agency_redundant": 0.437,
+      "agency_pivotal": 0.4292,
+      "cut_type": 0.4369,
+      "reward_agency": 0.8737
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 11.2
+  },
+  {
+   "scenario": {
+    "index": 58,
+    "config": "all_five",
+    "base": 0.45,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S5": 0.45,
+     "S2": 0.65,
+     "S4": 0.55,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 45%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.5484,
+      "agency_redundant": 0.5232,
+      "agency_pivotal": 0.5461,
+      "cut_type": 0.53,
+      "reward_agency": 0.5177
+     },
+     "power_unadjusted": {
+      "efficacy": 0.6959,
+      "agency_redundant": 0.6804,
+      "agency_pivotal": 0.7037,
+      "cut_type": 0.6859,
+      "reward_agency": 0.6809
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.6848,
+      "agency_redundant": 0.6986,
+      "agency_pivotal": 0.6853,
+      "cut_type": 0.6981,
+      "reward_agency": 1.3977
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.7299,
+      "agency_redundant": 0.7072,
+      "agency_pivotal": 0.7095,
+      "cut_type": 0.7079,
+      "reward_agency": 0.7062
+     },
+     "power_unadjusted": {
+      "efficacy": 0.8188,
+      "agency_redundant": 0.801,
+      "agency_pivotal": 0.8146,
+      "cut_type": 0.804,
+      "reward_agency": 0.8061
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.6851,
+      "agency_redundant": 0.6987,
+      "agency_pivotal": 0.6851,
+      "cut_type": 0.6984,
+      "reward_agency": 1.3975
+     }
+    },
+    {
+     "n": 500,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.8535,
+      "agency_redundant": 0.8345,
+      "agency_pivotal": 0.8365,
+      "cut_type": 0.8315,
+      "reward_agency": 0.8358
+     },
+     "power_unadjusted": {
+      "efficacy": 0.8897,
+      "agency_redundant": 0.8852,
+      "agency_pivotal": 0.8923,
+      "cut_type": 0.8794,
+      "reward_agency": 0.8821
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.685,
+      "agency_redundant": 0.6986,
+      "agency_pivotal": 0.6851,
+      "cut_type": 0.6985,
+      "reward_agency": 1.3975
+     }
+    }
+   ],
+   "n_needed": 500,
+   "seconds": 23.8
+  },
+  {
+   "scenario": {
+    "index": 59,
+    "config": "all_five",
+    "base": 0.45,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S3": 0.45,
+     "S1": 0.55,
+     "S5": 0.45,
+     "S2": 0.65,
+     "S4": 0.55,
+     "R1": 0.55,
+     "R2": 0.45
+    },
+    "targets": [
+     "efficacy",
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "all_five, base 45%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.1,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.7909,
+      "agency_redundant": 0.7678,
+      "agency_pivotal": 0.7731,
+      "cut_type": 0.7681,
+      "reward_agency": 0.772
+     },
+     "power_unadjusted": {
+      "efficacy": 0.8546,
+      "agency_redundant": 0.8419,
+      "agency_pivotal": 0.8552,
+      "cut_type": 0.8419,
+      "reward_agency": 0.8478
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.5635,
+      "agency_redundant": 0.5731,
+      "agency_pivotal": 0.5639,
+      "cut_type": 0.5727,
+      "reward_agency": 1.1458
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9243,
+      "agency_redundant": 0.9089,
+      "agency_pivotal": 0.9138,
+      "cut_type": 0.9056,
+      "reward_agency": 0.9113
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9419,
+      "agency_redundant": 0.9318,
+      "agency_pivotal": 0.94,
+      "cut_type": 0.9324,
+      "reward_agency": 0.9325
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.5635,
+      "agency_redundant": 0.5726,
+      "agency_pivotal": 0.5636,
+      "cut_type": 0.573,
+      "reward_agency": 1.1451
+     }
+    }
+   ],
+   "n_needed": 400,
+   "seconds": 14.0
+  },
+  {
+   "scenario": {
+    "index": 60,
+    "config": "global_null",
+    "base": 0.1,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S1": 0.1,
+     "S2": 0.1,
+     "S3": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.1,
+     "R2": 0.1
+    },
+    "targets": [],
+    "label": "global_null, base 10%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0094,
+      "agency_redundant": 0.0092,
+      "agency_pivotal": 0.0108,
+      "cut_type": 0.0097,
+      "reward_agency": 0.0094
+     },
+     "power_unadjusted": {
+      "efficacy": 0.049,
+      "agency_redundant": 0.0476,
+      "agency_pivotal": 0.0453,
+      "cut_type": 0.0495,
+      "reward_agency": 0.0488
+     },
+     "any_false_rejection": 0.0437,
+     "sd_of_difference": {
+      "efficacy": 0.244,
+      "agency_redundant": 0.2437,
+      "agency_pivotal": 0.2436,
+      "cut_type": 0.2436,
+      "reward_agency": 0.4874
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.0
+  },
+  {
+   "scenario": {
+    "index": 61,
+    "config": "global_null",
+    "base": 0.1,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S1": 0.1,
+     "S2": 0.1,
+     "S3": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.1,
+     "R2": 0.1
+    },
+    "targets": [],
+    "label": "global_null, base 10%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0109,
+      "agency_redundant": 0.0098,
+      "agency_pivotal": 0.0117,
+      "cut_type": 0.0112,
+      "reward_agency": 0.0105
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0485,
+      "agency_redundant": 0.0514,
+      "agency_pivotal": 0.0522,
+      "cut_type": 0.0507,
+      "reward_agency": 0.0514
+     },
+     "any_false_rejection": 0.0473,
+     "sd_of_difference": {
+      "efficacy": 0.285,
+      "agency_redundant": 0.2854,
+      "agency_pivotal": 0.2852,
+      "cut_type": 0.2849,
+      "reward_agency": 0.5697
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 9.8
+  },
+  {
+   "scenario": {
+    "index": 62,
+    "config": "global_null",
+    "base": 0.1,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S1": 0.1,
+     "S2": 0.1,
+     "S3": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.1,
+     "R2": 0.1
+    },
+    "targets": [],
+    "label": "global_null, base 10%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0095,
+      "agency_redundant": 0.0108,
+      "agency_pivotal": 0.0108,
+      "cut_type": 0.011,
+      "reward_agency": 0.0094
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0488,
+      "agency_redundant": 0.0493,
+      "agency_pivotal": 0.0507,
+      "cut_type": 0.0494,
+      "reward_agency": 0.0527
+     },
+     "any_false_rejection": 0.0459,
+     "sd_of_difference": {
+      "efficacy": 0.2593,
+      "agency_redundant": 0.2592,
+      "agency_pivotal": 0.2592,
+      "cut_type": 0.2592,
+      "reward_agency": 0.5184
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 10.0
+  },
+  {
+   "scenario": {
+    "index": 63,
+    "config": "global_null",
+    "base": 0.1,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S1": 0.1,
+     "S2": 0.1,
+     "S3": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.1,
+     "R2": 0.1
+    },
+    "targets": [],
+    "label": "global_null, base 10%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0101,
+      "agency_redundant": 0.0086,
+      "agency_pivotal": 0.0111,
+      "cut_type": 0.0094,
+      "reward_agency": 0.0086
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0471,
+      "agency_redundant": 0.0518,
+      "agency_pivotal": 0.0537,
+      "cut_type": 0.0501,
+      "reward_agency": 0.0478
+     },
+     "any_false_rejection": 0.0428,
+     "sd_of_difference": {
+      "efficacy": 0.42,
+      "agency_redundant": 0.4201,
+      "agency_pivotal": 0.4199,
+      "cut_type": 0.4196,
+      "reward_agency": 0.8398
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 5.3
+  },
+  {
+   "scenario": {
+    "index": 64,
+    "config": "global_null",
+    "base": 0.1,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S1": 0.1,
+     "S2": 0.1,
+     "S3": 0.1,
+     "S4": 0.1,
+     "S5": 0.1,
+     "R1": 0.1,
+     "R2": 0.1
+    },
+    "targets": [],
+    "label": "global_null, base 10%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.01,
+      "agency_redundant": 0.0091,
+      "agency_pivotal": 0.0088,
+      "cut_type": 0.0098,
+      "reward_agency": 0.0088
+     },
+     "power_unadjusted": {
+      "efficacy": 0.048,
+      "agency_redundant": 0.05,
+      "agency_pivotal": 0.0509,
+      "cut_type": 0.0516,
+      "reward_agency": 0.0489
+     },
+     "any_false_rejection": 0.0421,
+     "sd_of_difference": {
+      "efficacy": 0.3636,
+      "agency_redundant": 0.3644,
+      "agency_pivotal": 0.3638,
+      "cut_type": 0.3644,
+      "reward_agency": 0.7277
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 5.5
+  },
+  {
+   "scenario": {
+    "index": 65,
+    "config": "global_null",
+    "base": 0.45,
+    "het_strike": "homogeneous",
+    "het_reward": "homogeneous",
+    "link": 0.0,
+    "means": {
+     "S1": 0.45,
+     "S2": 0.45,
+     "S3": 0.45,
+     "S4": 0.45,
+     "S5": 0.45,
+     "R1": 0.45,
+     "R2": 0.45
+    },
+    "targets": [],
+    "label": "global_null, base 45%, homogeneous, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0102,
+      "agency_redundant": 0.0113,
+      "agency_pivotal": 0.0107,
+      "cut_type": 0.0097,
+      "reward_agency": 0.0108
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0459,
+      "agency_redundant": 0.0525,
+      "agency_pivotal": 0.0492,
+      "cut_type": 0.0492,
+      "reward_agency": 0.047
+     },
+     "any_false_rejection": 0.0474,
+     "sd_of_difference": {
+      "efficacy": 0.4055,
+      "agency_redundant": 0.4056,
+      "agency_pivotal": 0.4057,
+      "cut_type": 0.4057,
+      "reward_agency": 0.8109
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.7
+  },
+  {
+   "scenario": {
+    "index": 66,
+    "config": "global_null",
+    "base": 0.45,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.0,
+    "means": {
+     "S1": 0.45,
+     "S2": 0.45,
+     "S3": 0.45,
+     "S4": 0.45,
+     "S5": 0.45,
+     "R1": 0.45,
+     "R2": 0.45
+    },
+    "targets": [],
+    "label": "global_null, base 45%, spread, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.01,
+      "agency_redundant": 0.0081,
+      "agency_pivotal": 0.0117,
+      "cut_type": 0.0091,
+      "reward_agency": 0.0104
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0507,
+      "agency_redundant": 0.0504,
+      "agency_pivotal": 0.0508,
+      "cut_type": 0.0494,
+      "reward_agency": 0.0496
+     },
+     "any_false_rejection": 0.0441,
+     "sd_of_difference": {
+      "efficacy": 0.509,
+      "agency_redundant": 0.5087,
+      "agency_pivotal": 0.5086,
+      "cut_type": 0.5087,
+      "reward_agency": 1.0174
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 10.7
+  },
+  {
+   "scenario": {
+    "index": 67,
+    "config": "global_null",
+    "base": 0.45,
+    "het_strike": "spread",
+    "het_reward": "spread",
+    "link": 0.5,
+    "means": {
+     "S1": 0.45,
+     "S2": 0.45,
+     "S3": 0.45,
+     "S4": 0.45,
+     "S5": 0.45,
+     "R1": 0.45,
+     "R2": 0.45
+    },
+    "targets": [],
+    "label": "global_null, base 45%, spread, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0095,
+      "agency_redundant": 0.0093,
+      "agency_pivotal": 0.0092,
+      "cut_type": 0.0092,
+      "reward_agency": 0.0113
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0483,
+      "agency_redundant": 0.0455,
+      "agency_pivotal": 0.0487,
+      "cut_type": 0.0485,
+      "reward_agency": 0.0533
+     },
+     "any_false_rejection": 0.0446,
+     "sd_of_difference": {
+      "efficacy": 0.4362,
+      "agency_redundant": 0.4362,
+      "agency_pivotal": 0.4365,
+      "cut_type": 0.4362,
+      "reward_agency": 0.8726
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 10.6
+  },
+  {
+   "scenario": {
+    "index": 68,
+    "config": "global_null",
+    "base": 0.45,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.0,
+    "means": {
+     "S1": 0.45,
+     "S2": 0.45,
+     "S3": 0.45,
+     "S4": 0.45,
+     "S5": 0.45,
+     "R1": 0.45,
+     "R2": 0.45
+    },
+    "targets": [],
+    "label": "global_null, base 45%, all_or_nothing, link 0.0",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.0102,
+      "agency_redundant": 0.0102,
+      "agency_pivotal": 0.0102,
+      "cut_type": 0.0114,
+      "reward_agency": 0.01
+     },
+     "power_unadjusted": {
+      "efficacy": 0.0488,
+      "agency_redundant": 0.0495,
+      "agency_pivotal": 0.0519,
+      "cut_type": 0.0515,
+      "reward_agency": 0.047
+     },
+     "any_false_rejection": 0.0475,
+     "sd_of_difference": {
+      "efficacy": 0.6982,
+      "agency_redundant": 0.6986,
+      "agency_pivotal": 0.6983,
+      "cut_type": 0.6984,
+      "reward_agency": 1.3967
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.4
+  },
+  {
+   "scenario": {
+    "index": 69,
+    "config": "global_null",
+    "base": 0.45,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.5,
+    "means": {
+     "S1": 0.45,
+     "S2": 0.45,
+     "S3": 0.45,
+     "S4": 0.45,
+     "S5": 0.45,
+     "R1": 0.45,
+     "R2": 0.45
+    },
+    "targets": [],
+    "label": "global_null, base 45%, all_or_nothing, link 0.5",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.0
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.009,
+      "agency_redundant": 0.0106,
+      "agency_pivotal": 0.011,
+      "cut_type": 0.011,
+      "reward_agency": 0.0119
+     },
+     "power_unadjusted": {
+      "efficacy": 0.048,
+      "agency_redundant": 0.0493,
+      "agency_pivotal": 0.0489,
+      "cut_type": 0.0488,
+      "reward_agency": 0.0514
+     },
+     "any_false_rejection": 0.0479,
+     "sd_of_difference": {
+      "efficacy": 0.5718,
+      "agency_redundant": 0.5711,
+      "agency_pivotal": 0.5713,
+      "cut_type": 0.5716,
+      "reward_agency": 1.1418
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.1
+  },
+  {
+   "scenario": {
+    "index": 70,
+    "config": "pilot_like",
+    "base": 0.0,
+    "het_strike": "all_or_nothing",
+    "het_reward": "spread",
+    "link": 0.1,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S5": 0.0,
+     "S2": 1.0,
+     "S4": 0.9,
+     "R2": 0.345,
+     "R1": 0.445
+    },
+    "targets": [
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "pilot_like, strike cells all_or_nothing, reward cells spread, link 0.1",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.9,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 1.0,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 1.0,
+      "cut_type": 1.0,
+      "reward_agency": 0.9411
+     },
+     "power_unadjusted": {
+      "efficacy": 1.0,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 1.0,
+      "cut_type": 1.0,
+      "reward_agency": 0.9411
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.3019,
+      "agency_redundant": 0.2964,
+      "agency_pivotal": 0.3062,
+      "cut_type": 0.2964,
+      "reward_agency": 0.9646
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.2
+  },
+  {
+   "scenario": {
+    "index": 71,
+    "config": "pilot_like",
+    "base": 0.0,
+    "het_strike": "homogeneous",
+    "het_reward": "spread",
+    "link": 0.1,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.1,
+     "S5": 0.0,
+     "S2": 1.0,
+     "S4": 0.9,
+     "R2": 0.345,
+     "R1": 0.445
+    },
+    "targets": [
+     "agency_redundant",
+     "agency_pivotal",
+     "cut_type",
+     "reward_agency"
+    ],
+    "label": "pilot_like, strike cells homogeneous, reward cells spread, link 0.1",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 0.9,
+    "agency_redundant": 0.1,
+    "agency_pivotal": 0.1,
+    "cut_type": 0.1,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 1.0,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 1.0,
+      "cut_type": 1.0,
+      "reward_agency": 0.9418
+     },
+     "power_unadjusted": {
+      "efficacy": 1.0,
+      "agency_redundant": 1.0,
+      "agency_pivotal": 1.0,
+      "cut_type": 1.0,
+      "reward_agency": 0.9418
+     },
+     "any_false_rejection": 0.0,
+     "sd_of_difference": {
+      "efficacy": 0.1816,
+      "agency_redundant": 0.1723,
+      "agency_pivotal": 0.1884,
+      "cut_type": 0.1723,
+      "reward_agency": 0.9656
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 7.2
+  },
+  {
+   "scenario": {
+    "index": 72,
+    "config": "pilot_reward",
+    "base": 0.0,
+    "het_strike": "all_or_nothing",
+    "het_reward": "spread",
+    "link": 0.1,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.0,
+     "S5": 0.0,
+     "S2": 1.0,
+     "S4": 1.0,
+     "R2": 0.345,
+     "R1": 0.445
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "pilot_reward, strike contrasts null, reward cells spread, link 0.1",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 1.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9402,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0073,
+      "cut_type": 0.0,
+      "reward_agency": 0.838
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9875,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.047,
+      "cut_type": 0.0,
+      "reward_agency": 0.9401
+     },
+     "any_false_rejection": 0.0073,
+     "sd_of_difference": {
+      "efficacy": 0.0564,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0805,
+      "cut_type": 0.0,
+      "reward_agency": 0.9661
+     }
+    }
+   ],
+   "n_needed": 300,
+   "seconds": 6.5
+  },
+  {
+   "scenario": {
+    "index": 73,
+    "config": "pilot_reward",
+    "base": 0.0,
+    "het_strike": "all_or_nothing",
+    "het_reward": "all_or_nothing",
+    "link": 0.1,
+    "means": {
+     "S3": 0.0,
+     "S1": 0.0,
+     "S5": 0.0,
+     "S2": 1.0,
+     "S4": 1.0,
+     "R2": 0.345,
+     "R1": 0.445
+    },
+    "targets": [
+     "reward_agency"
+    ],
+    "label": "pilot_reward, strike contrasts null, reward cells all_or_nothing, link 0.1",
+    "draws": 3,
+    "fail": 0.01
+   },
+   "effects": {
+    "efficacy": 1.0,
+    "agency_redundant": 0.0,
+    "agency_pivotal": 0.0,
+    "cut_type": 0.0,
+    "reward_agency": 0.2
+   },
+   "runs": [
+    {
+     "n": 300,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.939,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0073,
+      "cut_type": 0.0,
+      "reward_agency": 0.52
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9862,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0458,
+      "cut_type": 0.0,
+      "reward_agency": 0.7303
+     },
+     "any_false_rejection": 0.0073,
+     "sd_of_difference": {
+      "efficacy": 0.0566,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0806,
+      "cut_type": 0.0,
+      "reward_agency": 1.3224
+     }
+    },
+    {
+     "n": 400,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9921,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0122,
+      "cut_type": 0.0,
+      "reward_agency": 0.683
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9985,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0495,
+      "cut_type": 0.0,
+      "reward_agency": 0.8475
+     },
+     "any_false_rejection": 0.0122,
+     "sd_of_difference": {
+      "efficacy": 0.0568,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0806,
+      "cut_type": 0.0,
+      "reward_agency": 1.3222
+     }
+    },
+    {
+     "n": 500,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9992,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0128,
+      "cut_type": 0.0,
+      "reward_agency": 0.784
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9999,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0504,
+      "cut_type": 0.0,
+      "reward_agency": 0.9128
+     },
+     "any_false_rejection": 0.0128,
+     "sd_of_difference": {
+      "efficacy": 0.0568,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0808,
+      "cut_type": 0.0,
+      "reward_agency": 1.3226
+     }
+    },
+    {
+     "n": 600,
+     "reps": 10000,
+     "boot": 999,
+     "power_holm": {
+      "efficacy": 0.9998,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0148,
+      "cut_type": 0.0,
+      "reward_agency": 0.8674
+     },
+     "power_unadjusted": {
+      "efficacy": 0.9999,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0524,
+      "cut_type": 0.0,
+      "reward_agency": 0.9538
+     },
+     "any_false_rejection": 0.0148,
+     "sd_of_difference": {
+      "efficacy": 0.057,
+      "agency_redundant": 0.0,
+      "agency_pivotal": 0.0809,
+      "cut_type": 0.0,
+      "reward_agency": 1.322
+     }
+    }
+   ],
+   "n_needed": 600,
+   "seconds": 18.4
+  }
+ ]
+}

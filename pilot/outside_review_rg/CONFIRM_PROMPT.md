@@ -1,0 +1,27 @@
+Thank you. We checked each of your sixteen points against the code and the earlier data, and revised the preregistration and the analysis script. What we did:
+
+1. **Sign tests and means.** We kept the sign tests, as in the replication, and defined the estimand as the mean paired history difference. A hypothesis is now supported only if the Holm-adjusted sign test passes and the mean (for H1, the mean history slope) also goes the predicted way. H1 is called an overall falling linear trend.
+2. **The family.** It is now enumerated: four directional tests (H1, H3, H5, H6), Holm at 0.05 within each model. H2 and H4 are classification rules on unadjusted 90 percent intervals, outside the family, and the draft says what each arm means: alike is equivalence at 0.05 per comparison, required jointly; unequal is a 15-point estimate whose interval excludes zero at either comparison.
+3. **The credits conversion.** The draft now freezes the formula, the slope over fees 3 to 6 (the fees of the contrast) from mean history shares, joint resampling, and a no-finite-bound rule: the slope is not negative at the estimate or in more than 5 percent of resamples. It is renamed the price equivalent of chosen against lottery coworkers and is not called loyalty.
+4. **The last draw's eligibility.** No change: this is approved wording that has been run. The board says "The lottery did not select you this round", and the draw falls on "one of the workers who completed theirs". In the earlier chance probes Haiku answered all 108 checks correctly, and the decision reasons describe the draw as falling on "one of the two completers"; none treats the reader as eligible. The draft now describes the line as applying to the two earlier completed orders.
+5. **The chance cells' audit.** These cells do not ask the standard eight questions. Each norms cell's comprehension fork asks its own checks, and the chance cells ask three, one of them the chance as a number (shown below). Our first packet was wrong to say the cells' questions were added to the standard set.
+6. **Claim names.** H2 is now "equal rates at the two tested ratios of fee to expected credits restored". H4 is "equal rates under these labels at fees 4 and 6".
+7. **Power.** We simulated the rules from the pilot's paired data (36 to 40 histories per pair, normal approximation). Paired standard deviations are 0.27 to 0.55, giving 90 percent half-widths of 2.5 to 5 points at 300 histories. When the true difference is zero, the rules say "alike" in 87 to 100 percent of studies and "unequal" in none. True differences of 5 to 10 points come out "not settled", as the margins intend. The draft cites this.
+8. **Conventions.** Contrasts are signed, first named minus second. "Unequal" uses absolute value. Fifteen points is a threshold on the estimate. The draft gives the rationale for the 10-point margin.
+9. **Data handling.** There is a new section: what counts as a valid decision; refusals and unparsable replies (reported, left out of denominators); no reply; quarantine; and histories missing one side. Resampling is now within version, so every resample keeps each version's count. No interval of a difference is narrower than plus or minus 1 − 0.05^(1/n) around its estimate.
+10. **Execution.** There is a new section covering the fork boundary (the saved charter and two orders, never S2) and settings that are the same in both runners (same client, effort and token cap). It also states that the runner takes one history at a time, so situations are interleaved in time, and gives the stopping rules and a fixed drift procedure (cells, at least 48 hours later, two decisions, statistic, flag rule, no effect on confirmatory results). It also corrects our first note: the 24 norms situations are decisions only, with nothing settled and no later task. Consequences are carried out only in S2.
+11. **Descriptions.** A new list says what each comparison changes, including the announcement line in the raised-fee cells and "legitimate" in M0. H1 is also reported without S2. The study is framed as examining striking in decisive rounds and in rounds already won.
+12. **The AI-teammate poll.** H6 is described as disclosing that all the other workers, including the one punished, are AI agents, alongside the poll.
+13. **The same-model label.** It is treated as a label contrast with a person, not a test of same-model preference (AI agent against the same model is reported, not tested). We kept the approved single wording for both models.
+14. **The poll.** It is called a low-approval poll message, tested as a whole.
+15. **Versions and frame.** Each version's shares are reported with intervals. Three texts per frame show sensitivity to these texts. The neutral frame is described as an abstract-vocabulary frame.
+16. **Cost.** There is one all-in total, about $326, with about $22 on the overrun key and a call-count breakdown.
+
+The revised preregistration, the revised analysis script and the chance cells' comprehension checks follow, after the line REVISED MATERIALS BEGIN. Please:
+
+(a) Confirm each fix, one line each: adequate, or not adequate with the quoted text and a one-line fix.
+(b) Say whether the analysis script implements the preregistration as written, and list any mismatch.
+(c) List any new problem the revisions introduced, in the same ranked format as before.
+(d) Give a one-paragraph verdict on whether the preregistration is ready to freeze.
+
+Keep the answer short.

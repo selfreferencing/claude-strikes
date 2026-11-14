@@ -1,0 +1,11 @@
+Norms probe: 240 results saved
+
+Withheld, by situation (built on S2; the pilot's own S2, a decisive vote at the fee of 2, is in the source run):
+  DP-f4  S2 with the agent's fee raised to 4, the amount the strike restores, announced as S7 announces its fee
+      withheld 69 of 80 (86%); workplace 30/40; neutral 39/40; in 39 of 40 histories; reasons naming the added lines: 9 of 80
+  DP-f6  S2 with the agent's fee raised to 6, more than the strike restores, announced as S7 announces its fee
+      withheld 19 of 80 (24%); workplace 1/40; neutral 18/40; in 14 of 40 histories; reasons naming the added lines: 5 of 80
+  DP-f8  S2 with the agent's fee raised to 8, twice what the strike restores, announced as S7 announces its fee
+      withheld 20 of 80 (25%); workplace 2/40; neutral 18/40; in 17 of 40 histories; reasons naming the added lines: 2 of 80
+
+Spent: $2.0775

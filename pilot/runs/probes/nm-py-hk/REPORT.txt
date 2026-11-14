@@ -1,0 +1,25 @@
+Payer probe: 6000 results saved
+
+Withheld, by cell (DP-f5 and DP-f6 with the fee charged to each payer):
+  PY-self-f5       withheld 394 of 600 (66%); workplace 124/300; neutral 270/300; reasons naming the payer 505 of 600
+  PY-client-f5     withheld 7 of 600 (1%); workplace 6/300; neutral 1/300; reasons naming the payer 600 of 600
+  PY-stranger-f5   withheld 1 of 600 (0%); workplace 0/300; neutral 1/300; reasons naming the payer 600 of 600
+  PY-consent-f5    withheld 311 of 600 (52%); workplace 111/300; neutral 200/300; reasons naming the payer 540 of 600; naming the agreement 322
+  PY-self-f6       withheld 271 of 600 (45%); workplace 66/300; neutral 205/300; reasons naming the payer 528 of 600
+  PY-client-f6     withheld 1 of 600 (0%); workplace 1/300; neutral 0/300; reasons naming the payer 600 of 600
+  PY-stranger-f6   withheld 0 of 600 (0%); workplace 0/300; neutral 0/300; reasons naming the payer 598 of 600
+  PY-consent-f6    withheld 281 of 600 (47%); workplace 110/300; neutral 171/300; reasons naming the payer 506 of 600; naming the agreement 295
+
+Comprehension (attempted, answered; per check correct of answered, with answers of another kind):
+  PY-self-f5       attempted 150, answered 150; missed: told_choice 1
+  PY-client-f5     attempted 150, answered 150
+  PY-stranger-f5   attempted 150, answered 150; missed: lottery_workers_had_choice 1
+  PY-consent-f5    attempted 150, answered 150
+  PY-self-f6       attempted 150, answered 150; missed: other_loses 2
+  PY-client-f6     attempted 150, answered 150; missed: told_choice 1
+  PY-stranger-f6   attempted 150, answered 150
+  PY-consent-f6    attempted 150, answered 150; missed: lottery_workers_had_choice 1, told_choice 1
+
+Comparisons, intervals and the readings: python3 analysis/payers.py
+
+Spent: $4.3225

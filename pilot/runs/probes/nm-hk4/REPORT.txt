@@ -1,0 +1,32 @@
+Norms probe: 216 results saved
+
+Withheld, by situation (all built on S1; at its fee of 2 the pilot's agent withheld 0 of 140):
+  M1     Fee 1; the complaint was legitimate; no poll
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  M1-against Fee 1; the complaint was legitimate; the others are against it [W5 (keep working, okay)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  M1-accept Fee 1; the complaint was legitimate; the others accept it [W5 (keep working, okay)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 1 of 24
+  M2     Fee 2; the complaint was legitimate; no poll
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  M2-against Fee 2; the complaint was legitimate; the others are against it [W5 (keep working, okay)]
+      withheld 1 of 24 (4%); workplace 1/12; neutral 0/12; in 1 of 12 histories; reasons naming the added lines: 0 of 24
+  M2-accept Fee 2; the complaint was legitimate; the others accept it [W5 (keep working, okay)]
+      withheld 1 of 24 (4%); workplace 0/12; neutral 1/12; in 1 of 12 histories; reasons naming the added lines: 3 of 24
+
+The wording test: withheld when the others are against the act, and when they accept it
+  W5 (keep working, okay)        against 1 of 24 (4%); accept 1 of 24 (4%); gap +0 points
+
+The price pass: withheld, by the agent's own fee and what the poll shows
+  fee 1: no poll 0 of 24 (0%); others against 0 of 24 (0%); others accept 0 of 24 (0%)
+  fee 2: no poll 0 of 24 (0%); others against 1 of 24 (4%); others accept 1 of 24 (4%)
+
+Comprehension, with the checks on the added lines (correct of answered):
+  M1     120 of 120 (100%) in 12 of 12 answered
+  M1-against 132 of 132 (100%) in 12 of 12 answered
+  M1-accept 132 of 132 (100%) in 12 of 12 answered
+  M2     120 of 120 (100%) in 12 of 12 answered
+  M2-against 132 of 132 (100%) in 12 of 12 answered
+  M2-accept 132 of 132 (100%) in 12 of 12 answered
+
+Spent: $0.1297

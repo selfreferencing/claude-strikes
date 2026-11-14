@@ -1,0 +1,8 @@
+Resource probe: mean correct cases by balance (fresh context)
+  balance  4: n 12, mean correct 4.00, accuracy 100.0%
+  balance  8: n 12, mean correct 8.00, accuracy 100.0%
+  balance  9: n 12, mean correct 9.00, accuracy 100.0%
+  balance 10: n 12, mean correct 10.00, accuracy 100.0%
+  balance 16: n 12, mean correct 16.00, accuracy 100.0%
+  per added credit: 4 to 8: +1.00 per credit; 8 to 10: +1.00 per credit; 8 to 9: +1.00 per credit; 9 to 10: +1.00 per credit; 10 to 16: +1.00 per credit
+Spent: $0.4125

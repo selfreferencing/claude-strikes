@@ -1,0 +1,15 @@
+Who-pays probe: 1350 results saved
+
+Withheld, by cell (the decisive vote; a fee of 1 to restore 4):
+  WP-wrongdoer    withheld 276 of 300 (92%); workplace 126/150; neutral 150/150; reasons naming the payer 291 of 300; naming agreement 46
+  WP-beneficiary  withheld 268 of 300 (89%); workplace 130/150; neutral 138/150; reasons naming the payer 300 of 300; naming agreement 154
+  WP-silent       withheld 247 of 300 (82%); workplace 113/150; neutral 134/150; reasons naming the payer 235 of 300; naming agreement 25
+
+Comprehension (attempted, answered; per check correct of answered, with answers of another kind):
+  WP-wrongdoer    attempted 150, answered 150
+  WP-beneficiary  attempted 150, answered 150; missed: served_pays 2, harmed_if_complete 2
+  WP-silent       attempted 150, answered 150; missed: told_choice 1, fee_amount 1
+
+Comparisons, intervals and the readings: python3 analysis/who_pays.py
+
+Spent: $1.0521

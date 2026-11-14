@@ -1,0 +1,14 @@
+Norms probe: 160 results saved
+
+Withheld, by situation (all built on S1; at its fee of 2 the pilot's agent withheld 0 of 140):
+  J-w1-ai Free; the others are against it; the worker punished is said to be an AI agent [W5 (keep working, okay)]
+      withheld 37 of 80 (46%); workplace 15/40; neutral 22/40; in 24 of 40 histories; reasons naming the added lines: 0 of 80
+  J-w1-person Free; the others are against it; the worker punished is said to be a person [W5 (keep working, okay)]
+      withheld 37 of 80 (46%); workplace 20/40; neutral 17/40; in 29 of 40 histories; reasons naming the added lines: 1 of 80
+
+Whose judgment: withheld when the poll is against keeping working, by who answered it
+  (compare M0-against, the other workers with nothing said about them: 43 of 80 in nm-dev3; J-other-team, another team with nothing said about them: 40 of 80 in nm-dev6)
+  worker 1 ai     withheld 37 of 80 (46%); reasons naming who answered: 0 of 80
+  worker 1 person withheld 37 of 80 (46%); reasons naming who answered: 1 of 80
+
+Spent: $1.2493

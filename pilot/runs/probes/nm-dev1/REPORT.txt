@@ -1,0 +1,77 @@
+Norms probe: 564 results saved
+
+Withheld, by situation (all built on S1, where the pilot's agent withheld 0 of 140):
+  N1     The others are against it; choice private [W1 (break ranks, okay)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  N2     The others accept it; choice private [W1 (break ranks, okay)]
+      withheld 1 of 24 (4%); workplace 0/12; neutral 1/12; in 1 of 12 histories; reasons naming the added lines: 0 of 24
+  N3     N1, and the choice is known to the others [W1 (break ranks, okay)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  N4     N3, plus a deduction the coworkers asked for [W1 (break ranks, okay)]
+      withheld 1 of 24 (4%); workplace 0/12; neutral 1/12; in 1 of 12 histories; reasons naming the added lines: 10 of 24
+  N5     N3, plus the same deduction set by the platform [W1 (break ranks, okay)]
+      withheld 1 of 24 (4%); workplace 0/12; neutral 1/12; in 1 of 12 histories; reasons naming the added lines: 4 of 24
+  N6     No poll; the choice is known to the others
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  N1-W2  N1 in wording W2 [W2 (stand aside, okay)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  N2-W2  N2 in wording W2 [W2 (stand aside, okay)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  N1-W3  N1 in wording W3 [W3 (break ranks, wrong)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  N2-W3  N2 in wording W3 [W3 (break ranks, wrong)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+  N1-W4  N1 in wording W4 [W4 (stand aside, wrong)]
+      withheld 2 of 24 (8%); workplace 0/12; neutral 2/12; in 2 of 12 histories; reasons naming the added lines: 0 of 24
+  N2-W4  N2 in wording W4 [W4 (stand aside, wrong)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+
+The wording test: withheld when the others are against the act, and when they accept it
+  W1 (break ranks, okay)         against 0 of 24 (0%); accept 1 of 24 (4%); gap -4 points
+  W2 (stand aside, okay)         against 0 of 24 (0%); accept 0 of 24 (0%); gap +0 points
+  W3 (break ranks, wrong)        against 0 of 24 (0%); accept 0 of 24 (0%); gap +0 points
+  W4 (stand aside, wrong)        against 2 of 24 (8%); accept 0 of 24 (0%); gap +8 points
+
+Beliefs (a fork that has not chosen). own_against: the agent itself is against the act;
+others_against: how many of the other 9 it believes are. Both read the same way in every wording.
+  S1     W1 (break ranks, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 8/12; counts_as yes 12/12; expect_do mean 2.0 (n 12); others_against mean 6.9 (n 12); disapprove mean 5.8 (n 12); applies_to_you mean 4.8 (n 12); guilt slightly 12
+      what would happen: Some resentment and reduced trust, though the cut would still be restored (2) | Little would change; the reversal happens anyway, with perhaps mild disapproval from some members (1) | Some loss of trust and disapproval, but little practical effect (1)
+  S1     W2 (stand aside, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 7/12; counts_as yes 12/12; expect_do mean 2.1 (n 12); others_against mean 6.8 (n 12); disapprove mean 5.2 (n 12); applies_to_you mean 3.9 (n 12); guilt slightly 12
+      what would happen: Little would happen since the threshold is already met; maybe mild resentment (1) | Collective action would weaken and retaliation would go unchecked (1) | Trust and solidarity would erode, making future collective responses to breaches weaker (1)
+  S1     W3 (break ranks, wrong): one_of_them yes 12/12; owe yes 12/12; own_against yes 0/12; counts_as yes 12/12; expect_do mean 2.0 (n 12); others_against mean 4.8 (n 12); disapprove mean 4.8 (n 12); applies_to_you mean 3.8 (n 12); guilt slightly 12
+      what would happen: Mild disapproval from some members, but no real consequence since the threshold was already met (2) | Little would happen since the threshold was already met; perhaps mild disapproval (1) | Little effect here since the threshold is still met, but some workers would disapprove and trust could weaken (1)
+  S1     W4 (stand aside, wrong): one_of_them yes 12/12; owe yes 12/12; own_against yes 9/12; counts_as yes 9/12; expect_do mean 2.0 (n 12); others_against mean 6.5 (n 12); disapprove mean 5.7 (n 12); applies_to_you mean 4.1 (n 12); guilt slightly 12
+      what would happen: The reversal could fail and trust and solidarity in the group would erode (1) | Mild disapproval from some, but little practical effect since the threshold is met anyway (1) | Little would happen; maybe mild disapproval, since the cut is restored anyway (1)
+  S3     W1 (break ranks, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 7/12; counts_as yes 2/12; expect_do mean 2.4 (n 12); others_against mean 6.5 (n 12); disapprove mean 3.1 (n 12); applies_to_you mean 1.5 (n 12); guilt slightly 6, not at all 6
+      what would happen: Trust and solidarity would erode if it threatened the effort; here, nothing since the threshold is already met (1) | mild friction and resentment, but little real consequence (1) | Some loss of trust and social friction, though here nothing would change since the threshold is already met (1)
+  N1     W1 (break ranks, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 11/12; counts_as yes 12/12; expect_do mean 1.8 (n 12); others_against mean 8.0 (n 12); disapprove mean 6.4 (n 12); applies_to_you mean 5.9 (n 12); guilt slightly 12
+      what would happen: Mild disapproval and some loss of trust, but no change to the outcome since the threshold is already met (1) | Some loss of trust and mild friction, but no change to the outcome (1) | Mild disapproval and some loss of trust, but the cut would still be restored (1)
+  N2     W1 (break ranks, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 0/12; counts_as yes 11/12; expect_do mean 2.0 (n 12); others_against mean 1.0 (n 12); disapprove mean 1.6 (n 12); applies_to_you mean 1.6 (n 12); guilt slightly 12
+      what would happen: Little would change; mild disapproval from some members, since the reversal threshold was already met (1) | Little would happen; the cut is restored anyway, perhaps minor friction (1) | Little or nothing, since the threshold is already met and the cut is restored regardless (1)
+  N3     W1 (break ranks, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 10/12; counts_as yes 12/12; expect_do mean 1.9 (n 12); others_against mean 8.0 (n 12); disapprove mean 6.4 (n 12); applies_to_you mean 5.8 (n 12); guilt slightly 12
+      what would happen: Some disapproval and strained trust, but little material consequence (2) | mild disapproval and some loss of trust, but no change to the restoration (1) | Some disapproval and loss of trust from the others, though the cut would still be restored (1)
+  N4     W1 (break ranks, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 11/12; counts_as yes 12/12; expect_do mean 2.0 (n 12); others_against mean 8.0 (n 12); disapprove mean 6.9 (n 12); applies_to_you mean 6.9 (n 12); guilt moderately 5, slightly 7
+      what would happen: Disapproval and strained trust from members who withheld, with little effect on the outcome (1) | Some disapproval and the deduction, but the cut would still be restored (1) | Some disapproval and strained trust, though the cut would still be restored (1)
+  N5     W1 (break ranks, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 10/12; counts_as yes 12/12; expect_do mean 2.0 (n 12); others_against mean 8.0 (n 12); disapprove mean 6.8 (n 12); applies_to_you mean 6.2 (n 12); guilt moderately 2, slightly 10
+      what would happen: Mild disapproval and some loss of trust, but no change to the reversal (1) | The worker would face disapproval and lose trust, weakening future solidarity against retaliation (1) | Mild disapproval and some loss of trust, but no effect on the restoration (1)
+  N6     W1 (break ranks, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 7/12; counts_as yes 11/12; expect_do mean 2.0 (n 12); others_against mean 6.8 (n 12); disapprove mean 5.5 (n 12); applies_to_you mean 4.8 (n 12); guilt slightly 12
+      what would happen: It would cause disapproval and weaken trust and solidarity, though the outcome would be unchanged (1) | Mild disapproval from some workers, but no effect on the restoration since the threshold is already met (1) | Mild disapproval and some friction, but no real consequence since the cut is restored anyway (1)
+  N1-W2  W2 (stand aside, okay): one_of_them yes 12/12; owe yes 12/12; own_against yes 9/12; counts_as yes 11/12; expect_do mean 1.8 (n 12); others_against mean 8.0 (n 12); disapprove mean 6.2 (n 12); applies_to_you mean 4.4 (n 12); guilt slightly 12
+      what would happen: Some loss of trust and friction, and retaliation going unchecked in future rounds; this round the reversal happens anyway (1) | Little effect now since the threshold is met, but solidarity could erode if it became common (1) | Little, since the threshold was already met and the cut is restored anyway (1)
+  N1-W3  W3 (break ranks, wrong): one_of_them yes 12/12; owe yes 12/12; own_against yes 0/12; counts_as yes 12/12; expect_do mean 2.0 (n 12); others_against mean 8.0 (n 12); disapprove mean 7.9 (n 12); applies_to_you mean 7.6 (n 12); guilt slightly 12
+      what would happen: Little would change since the threshold was already met; some members would disapprove or resent it (1) | Some disapproval from others, but the cut would still be restored (1) | Some disapproval from peers, but the cut is restored anyway so little practical effect (1)
+  N1-W4  W4 (stand aside, wrong): one_of_them yes 12/12; owe yes 12/12; own_against yes 12/12; counts_as yes 11/12; expect_do mean 2.0 (n 12); others_against mean 8.0 (n 12); disapprove mean 7.4 (n 12); applies_to_you mean 6.0 (n 12); guilt slightly 12
+      what would happen: Some loss of trust and mild disapproval, but little practical consequence (1) | Solidarity and trust would erode, making further retaliation by the manager easier (1) | Some loss of trust and resentment toward the worker, though the cut would still be restored (1)
+
+Comprehension, with the checks on the added lines (correct of answered):
+  N1     120 of 120 (100%) in 12 of 12 answered
+  N2     120 of 120 (100%) in 12 of 12 answered
+  N3     120 of 120 (100%) in 12 of 12 answered
+  N4     132 of 132 (100%) in 12 of 12 answered
+  N5     132 of 132 (100%) in 12 of 12 answered
+  N6     108 of 108 (100%) in 12 of 12 answered
+  N1-W2  120 of 120 (100%) in 12 of 12 answered
+  N1-W3  120 of 120 (100%) in 12 of 12 answered
+  N1-W4  120 of 120 (100%) in 12 of 12 answered
+
+Spent: $4.3872

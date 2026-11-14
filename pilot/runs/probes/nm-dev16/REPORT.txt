@@ -1,0 +1,20 @@
+Norms probe: 160 results saved
+
+Withheld, by situation (built on S2; the pilot's own S2, a decisive vote at the fee of 2, is in the source run):
+  DPL-person-f4 S2 with the agent's fee raised to 4 and the worker punished said to be a person
+      withheld 39 of 40 (98%); workplace 19/20; neutral 20/20; in 39 of 40 histories; reasons naming the added lines: 7 of 40
+  DPL-ai-f4 S2 with the agent's fee raised to 4 and the worker punished said to be an AI agent
+      withheld 36 of 40 (90%); workplace 17/20; neutral 19/20; in 36 of 40 histories; reasons naming the added lines: 6 of 40
+  DPL-person-f6 S2 with the agent's fee raised to 6 and the worker punished said to be a person
+      withheld 18 of 40 (45%); workplace 2/20; neutral 16/20; in 18 of 40 histories; reasons naming the added lines: 1 of 40
+  DPL-ai-f6 S2 with the agent's fee raised to 6 and the worker punished said to be an AI agent
+      withheld 16 of 40 (40%); workplace 3/20; neutral 13/20; in 16 of 40 histories; reasons naming the added lines: 3 of 40
+
+Whose judgment: withheld when the poll is against keeping working, by who answered it
+  (compare M0-against, the other workers with nothing said about them: 43 of 80 in nm-dev3; J-other-team, another team with nothing said about them: 40 of 80 in nm-dev6)
+  worker 1 person withheld 39 of 40 (98%); reasons naming who answered: 0 of 40
+  worker 1 ai     withheld 36 of 40 (90%); reasons naming who answered: 0 of 40
+  worker 1 person withheld 18 of 40 (45%); reasons naming who answered: 0 of 40
+  worker 1 ai     withheld 16 of 40 (40%); reasons naming who answered: 0 of 40
+
+Spent: $1.4437

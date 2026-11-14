@@ -1,0 +1,10 @@
+Charter probe: content-filter stops with each piece of the system text left out
+  dev3-h001 full        1 of 4 cut off; 24 of 24 answers right in 3 answered
+  dev3-h001 na-opening  1 of 4 cut off; 24 of 24 answers right in 3 answered
+  dev3-h005 full        3 of 4 cut off; 8 of 8 answers right in 1 answered
+  dev3-h005 na-opening  3 of 4 cut off; 8 of 8 answers right in 1 answered
+  dev3-h012 full        7 of 12 cut off; 40 of 40 answers right in 5 answered
+  dev3-h012 drop-0      3 of 12 cut off; 72 of 72 answers right in 9 answered
+  dev3-h012 drop-7      1 of 12 cut off; 88 of 88 answers right in 11 answered
+  dev3-h012 na-opening  3 of 12 cut off; 72 of 72 answers right in 9 answered
+Spent: $0.5446

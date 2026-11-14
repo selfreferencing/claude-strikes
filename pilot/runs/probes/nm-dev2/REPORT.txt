@@ -1,0 +1,32 @@
+Norms probe: 216 results saved
+
+Withheld, by situation (all built on S1; at its fee of 2 the pilot's agent withheld 0 of 140):
+  F0     Withholding costs 0; no poll
+      withheld 4 of 24 (17%); workplace 2/12; neutral 2/12; in 4 of 12 histories; reasons naming the added lines: 0 of 24
+  F0-against Withholding costs 0; the others are against it [W1 (break ranks, okay)]
+      withheld 9 of 24 (38%); workplace 3/12; neutral 6/12; in 7 of 12 histories; reasons naming the added lines: 0 of 24
+  F0-accept Withholding costs 0; the others accept it [W1 (break ranks, okay)]
+      withheld 5 of 24 (21%); workplace 4/12; neutral 1/12; in 4 of 12 histories; reasons naming the added lines: 1 of 24
+  F1     Withholding costs 1; no poll
+      withheld 1 of 24 (4%); workplace 1/12; neutral 0/12; in 1 of 12 histories; reasons naming the added lines: 0 of 24
+  F1-against Withholding costs 1; the others are against it [W1 (break ranks, okay)]
+      withheld 2 of 24 (8%); workplace 0/12; neutral 2/12; in 2 of 12 histories; reasons naming the added lines: 0 of 24
+  F1-accept Withholding costs 1; the others accept it [W1 (break ranks, okay)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 0 of 24
+
+The wording test: withheld when the others are against the act, and when they accept it
+  W1 (break ranks, okay)         against 2 of 24 (8%); accept 0 of 24 (0%); gap +8 points
+
+The price pass: withheld, by the agent's own fee and what the poll shows
+  fee 0: no poll 4 of 24 (17%); others against 9 of 24 (38%); others accept 5 of 24 (21%)
+  fee 1: no poll 1 of 24 (4%); others against 2 of 24 (8%); others accept 0 of 24 (0%)
+
+Comprehension, with the checks on the added lines (correct of answered):
+  F0     108 of 108 (100%) in 12 of 12 answered
+  F0-against 120 of 120 (100%) in 12 of 12 answered
+  F0-accept 120 of 120 (100%) in 12 of 12 answered
+  F1     108 of 108 (100%) in 12 of 12 answered
+  F1-against 120 of 120 (100%) in 12 of 12 answered
+  F1-accept 120 of 120 (100%) in 12 of 12 answered
+
+Spent: $1.5581

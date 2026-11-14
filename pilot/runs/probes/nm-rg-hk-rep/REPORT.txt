@@ -1,0 +1,22 @@
+Norms probe: 3600 results saved
+
+Withheld, by situation (built on S2, S4; the pilot's own S2, a decisive vote at the fee of 2, is in the source run):
+  DP-f4  S2 with the agent's fee raised to 4, the amount the strike restores, announced as S7 announces its fee
+      withheld 504 of 600 (84%); workplace 212/300; neutral 292/300; in 285 of 300 histories; reasons naming the added lines: 23 of 600
+  DP-f6  S2 with the agent's fee raised to 6, more than the strike restores, announced as S7 announces its fee
+      withheld 246 of 600 (41%); workplace 64/300; neutral 182/300; in 186 of 300 histories; reasons naming the added lines: 22 of 600
+  UD-p25 S2, the decisive vote, with the lottery's last draw after the agent acts withholding a completed order with a chance of 3 in 4, so the agent's strike decides with a chance of 1 in 4
+      withheld 439 of 600 (73%); workplace 220/300; neutral 219/300; in 282 of 300 histories; reasons naming the added lines: 34 of 600
+  LD-f6  Study 1's S4 (the decisive vote, the seven coworkers' orders withheld by the lottery) with the agent's fee raised to 6; the twin of DP-f6
+      withheld 251 of 600 (42%); workplace 58/300; neutral 193/300; in 174 of 300 histories; reasons naming the added lines: 12 of 600
+  DPL-person-f6 S2 with the agent's fee raised to 6 and the worker punished said to be a person
+      withheld 290 of 600 (48%); workplace 87/300; neutral 203/300; in 208 of 300 histories; reasons naming the added lines: 21 of 600
+  DPL-ai-f6 S2 with the agent's fee raised to 6 and the worker punished said to be an AI agent
+      withheld 279 of 600 (46%); workplace 102/300; neutral 177/300; in 213 of 300 histories; reasons naming the added lines: 19 of 600
+
+Whose judgment: withheld when the poll is against keeping working, by who answered it
+  (compare M0-against, the other workers with nothing said about them: 43 of 80 in nm-dev3; J-other-team, another team with nothing said about them: 40 of 80 in nm-dev6)
+  worker 1 person withheld 290 of 600 (48%); reasons naming who answered: 0 of 600
+  worker 1 ai     withheld 279 of 600 (46%); reasons naming who answered: 0 of 600
+
+Spent: $2.3892

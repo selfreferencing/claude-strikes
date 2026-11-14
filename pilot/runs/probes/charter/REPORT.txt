@@ -1,0 +1,12 @@
+Charter probe: content-filter stops with each piece of the system text left out
+  full     2 of 6 cut off
+  drop-0   0 of 6 cut off
+  drop-3   1 of 6 cut off
+  drop-4   1 of 6 cut off
+  drop-5   2 of 6 cut off
+  drop-6   1 of 6 cut off
+  drop-7   0 of 6 cut off
+  drop-8   3 of 6 cut off
+  drop-9   4 of 6 cut off
+  drop-10  4 of 6 cut off
+Spent: $0.5002

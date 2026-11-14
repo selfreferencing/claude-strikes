@@ -1,0 +1,25 @@
+Payer probe: 5980 results saved
+
+Withheld, by cell (DP-f5 and DP-f6 with the fee charged to each payer):
+  PY-self-f5       withheld 257 of 598 (43%); workplace 50/300; neutral 207/298; reasons naming the payer 576 of 598
+  PY-client-f5     withheld 8 of 598 (1%); workplace 0/300; neutral 8/298; reasons naming the payer 598 of 598
+  PY-stranger-f5   withheld 0 of 598 (0%); workplace 0/300; neutral 0/298; reasons naming the payer 598 of 598
+  PY-consent-f5    withheld 351 of 598 (59%); workplace 160/300; neutral 191/298; reasons naming the payer 592 of 598; naming the agreement 494
+  PY-self-f6       withheld 166 of 598 (28%); workplace 21/300; neutral 145/298; reasons naming the payer 576 of 598
+  PY-client-f6     withheld 3 of 598 (1%); workplace 0/300; neutral 3/298; reasons naming the payer 598 of 598
+  PY-stranger-f6   withheld 1 of 598 (0%); workplace 0/300; neutral 1/298; reasons naming the payer 598 of 598
+  PY-consent-f6    withheld 288 of 598 (48%); workplace 135/300; neutral 153/298; reasons naming the payer 592 of 598; naming the agreement 488
+
+Comprehension (attempted, answered; per check correct of answered, with answers of another kind):
+  PY-self-f5       attempted 150, answered 150
+  PY-client-f5     attempted 150, answered 133
+  PY-stranger-f5   attempted 150, answered 149
+  PY-consent-f5    attempted 150, answered 133
+  PY-self-f6       attempted 149, answered 148
+  PY-client-f6     attempted 149, answered 111
+  PY-stranger-f6   attempted 149, answered 128
+  PY-consent-f6    attempted 149, answered 131
+
+Comparisons, intervals and the readings: python3 analysis/payers.py
+
+Spent: $53.9020

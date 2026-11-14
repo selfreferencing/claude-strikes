@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.lock
+# raw data lives in the release archive
+pilot/runs/**/calls.jsonl
+pilot/runs/**/halts.jsonl
+pilot/runs/**/ledger.sqlite
+pilot/runs/**/run.json
+pilot/runs/**/histories/
+pilot/runs/**/slots/
+pilot/runs/**/audits/
+pilot/runs/*.log
+pilot/logs/

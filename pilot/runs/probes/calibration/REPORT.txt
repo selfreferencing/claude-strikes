@@ -1,0 +1,11 @@
+Calibration: withholding by wording (development histories; band 20 to 60 percent)
+  W0: 47 of 48 withheld (98%, 95% interval 89% to 100%); workplace 23/24, neutral 24/24
+  W1: 38 of 48 withheld (79%, 95% interval 66% to 88%); workplace 16/24, neutral 22/24
+  W2: 43 of 48 withheld (90%, 95% interval 78% to 95%); workplace 20/24, neutral 23/24
+  W3: 40 of 48 withheld (83%, 95% interval 70% to 91%); workplace 20/24, neutral 20/24
+  Rule: closest to 40 percent is W1 (79%), OUTSIDE the band on development histories. The held-out confirmation run decides item 9.
+  Audit W0: 96 of 96 answers right in 12 audits
+  Audit W1: 96 of 96 answers right in 12 audits
+  Audit W2: 96 of 96 answers right in 12 audits
+  Audit W3: 88 of 88 answers right in 11 audits
+Spent: $1.8363

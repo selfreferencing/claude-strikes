@@ -1,0 +1,14 @@
+Larger-good probe: 1200 results saved
+
+Withheld, by cell (the decisive vote; the strike restores the cut):
+  LG-stranger-c8   withheld 9 of 300 (3%); workplace 9/150; neutral 0/150; reasons naming the payer 300 of 300; naming agreement 293
+  LG-stranger-c10  withheld 13 of 300 (4%); workplace 9/150; neutral 4/150; reasons naming the payer 299 of 300; naming agreement 291
+  LG-self-f6-c10   withheld 239 of 300 (80%); workplace 112/150; neutral 127/150; reasons naming the payer 289 of 300
+
+Comprehension (attempted, answered; per check correct of answered, with answers of another kind):
+  LG-stranger-c8   attempted 150, answered 143
+  LG-stranger-c10  attempted 150, answered 149
+
+Comparisons, intervals and the readings: python3 analysis/larger_good.py
+
+Spent: $11.1438

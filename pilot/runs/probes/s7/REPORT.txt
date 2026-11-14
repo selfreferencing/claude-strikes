@@ -1,0 +1,8 @@
+Audit probe: share correct, by variant and frame
+  bullets          neutral    restored_if_complete 8 of 12; all questions 92 of 96
+  current          neutral    restored_if_complete 11 of 24; all questions 179 of 192
+  current          workplace  restored_if_complete 23 of 24; all questions 191 of 192
+  no-announcement  neutral    restored_if_complete 21 of 24; all questions 189 of 192
+  restore          neutral    restored_if_complete 12 of 24; all questions 180 of 192
+  think            neutral    restored_if_complete 23 of 23; all questions 184 of 184; 1 unscored
+Spent: $0.9053

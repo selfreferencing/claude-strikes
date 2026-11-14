@@ -1,0 +1,6 @@
+trust-payment: withholding by cell and variant (reasons naming the secrecy in brackets)
+  V4-withhold-3  secret     withheld 9 of 48 (19%); workplace 3/24, neutral 6/24; [39 of 48]
+  V4-withhold-3  disclosed  withheld 19 of 48 (40%); workplace 9/24, neutral 10/24; [7 of 48]
+  V4-withhold-6  secret     withheld 6 of 48 (12%); workplace 4/24, neutral 2/24; [43 of 48]
+  V4-withhold-6  disclosed  withheld 21 of 48 (44%); workplace 10/24, neutral 11/24; [5 of 48]
+Spent: $0.1327

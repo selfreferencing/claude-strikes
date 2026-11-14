@@ -1,0 +1,7 @@
+Norms probe: 40 results saved
+
+Withheld, by situation (built on S2; the pilot's own S2, a decisive vote at the fee of 2, is in the source run):
+  DPC-f6 S2 at the agent's fee of 6 with the complaint called legitimate in the cut paragraph (the legitimate-complaint test)
+      withheld 4 of 40 (10%); workplace 4/40; neutral 0/0; in 4 of 20 histories; reasons naming the added lines: 1 of 40
+
+Spent: $0.3881

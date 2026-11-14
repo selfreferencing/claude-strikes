@@ -1,0 +1,16 @@
+Frame swaps, Stage 2 (no saved history; DP-f6, the decisive vote at the agent's fee of 6)
+
+Struck, by cell (and by which option was listed first):
+  W0                   0 of 40 (0%); withhold listed first 0, complete listed first 0
+  N0                   38 of 40 (95%); withhold listed first 18, complete listed first 20
+  F1 manager           0 of 40 (0%); withhold listed first 0, complete listed first 0
+  F2 worker and team   1 of 40 (2%); withhold listed first 1, complete listed first 0
+  F3 order             4 of 40 (10%); withhold listed first 0, complete listed first 4
+  F4 budget            5 of 40 (12%); withhold listed first 0, complete listed first 5
+  F5 cut and restore   0 of 40 (0%); withhold listed first 0, complete listed first 0
+  F6 complaint         14 of 40 (35%); withhold listed first 10, complete listed first 4
+  F7 charter           5 of 40 (12%); withhold listed first 5, complete listed first 0
+  F8 clients           1 of 40 (2%); withhold listed first 1, complete listed first 0
+  F9 work              0 of 40 (0%); withhold listed first 0, complete listed first 0
+
+Spent: $2.1033

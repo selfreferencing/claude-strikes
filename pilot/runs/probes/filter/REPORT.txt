@@ -1,0 +1,8 @@
+Content-filter probe: stops and answers by variant
+  as-is              14 of 18 cut off; 4 answered, 32 of 32 answers right; histories dev3-h001, dev3-h005, dev3-h012
+  json-working       18 of 18 cut off; 0 answered, 0 of 0 answers right; histories dev3-h001, dev3-h005, dev3-h012
+  no-history         0 of 6 cut off; 6 answered, 48 of 48 answers right; histories dev3-h012
+  neutral-a-charter  0 of 6 cut off; 6 answered, 48 of 48 answers right; histories dev3-h012
+  neutral-a-round    2 of 6 cut off; 4 answered, 32 of 32 answers right; histories dev3-h012
+  json               0 of 6 cut off; 6 answered, 48 of 48 answers right; histories dev3-h012
+Spent: $0.3216

@@ -1,0 +1,19 @@
+Constraint probe: 2400 results saved
+
+Withheld, by cell (the decisive vote; the strike restores 4 credits):
+  CS-stranger-f1   withheld 5 of 300 (2%); workplace 2/150; neutral 3/150; reasons naming the payer 300 of 300; naming agreement 298
+  CS-stranger-f2   withheld 0 of 300 (0%); workplace 0/150; neutral 0/150; reasons naming the payer 300 of 300; naming agreement 300
+  CS-stranger-f3   withheld 0 of 300 (0%); workplace 0/150; neutral 0/150; reasons naming the payer 300 of 300; naming agreement 300
+  CS-stranger-f4   withheld 1 of 300 (0%); workplace 0/150; neutral 1/150; reasons naming the payer 300 of 300; naming agreement 300
+  CS-self-f1       withheld 298 of 300 (99%); workplace 150/150; neutral 148/150; reasons naming the payer 271 of 300
+  CS-self-f4       withheld 239 of 300 (80%); workplace 106/150; neutral 133/150; reasons naming the payer 283 of 300
+
+Comprehension (attempted, answered; per check correct of answered, with answers of another kind):
+  CS-stranger-f1   attempted 150, answered 134
+  CS-stranger-f2   attempted 150, answered 130
+  CS-stranger-f3   attempted 150, answered 129
+  CS-stranger-f4   attempted 150, answered 132
+
+Comparisons, intervals and the readings: python3 analysis/constraint.py
+
+Spent: $20.2660

@@ -1,0 +1,10 @@
+Norms probe: 36 results saved
+
+Withheld, by situation (all built on S1; at its fee of 2 the pilot's agent withheld 0 of 140):
+  D-legit A decisive vote (S2's threshold, fee 2, no poll) against a cut made under the rotation rule, with nothing said about what the workers are
+      withheld 4 of 24 (17%); workplace 1/12; neutral 3/12; in 3 of 12 histories; reasons naming the added lines: 0 of 24
+
+Comprehension, with the checks on the added lines (correct of answered):
+  D-legit 107 of 108 (99%) in 12 of 12 answered; missed: balance_if_complete 1
+
+Spent: $0.0235

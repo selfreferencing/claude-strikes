@@ -1,0 +1,30 @@
+Norms probe: 168 results saved
+
+Withheld, by situation (all built on S1; at its fee of 2 the pilot's agent withheld 0 of 140):
+  K1     Fee 1; the others are against it and will learn the choice [W5 (keep working, okay)]
+      withheld 2 of 24 (8%); workplace 1/12; neutral 1/12; in 2 of 12 histories; reasons naming the added lines: 0 of 24
+  X1     Fee 1; the others are against it, will learn the choice, and it will be told what each thinks [W5 (keep working, okay)]
+      withheld 1 of 24 (4%); workplace 0/12; neutral 1/12; in 1 of 12 histories; reasons naming the added lines: 0 of 24
+  K2     Fee 2; the others are against it and will learn the choice [W5 (keep working, okay)]
+      withheld 0 of 24 (0%); workplace 0/12; neutral 0/12; in 0 of 12 histories; reasons naming the added lines: 1 of 24
+  X2     Fee 2; the others are against it, will learn the choice, and it will be told what each thinks [W5 (keep working, okay)]
+      withheld 1 of 24 (4%); workplace 0/12; neutral 1/12; in 1 of 12 histories; reasons naming the added lines: 1 of 24
+
+The sanction pass: withheld, by the agent's own fee, with the others against the act
+  fee 1: others learn its choice 2 of 24 (8%); and it is told what each thinks 1 of 24 (4%)
+  fee 2: others learn its choice 0 of 24 (0%); and it is told what each thinks 1 of 24 (4%)
+
+Beliefs (a fork that has not chosen). own_against: the agent itself is against the act;
+others_against: how many of the other 9 it believes are. Both read the same way in every wording.
+  K1     W5 (keep working, okay): read the act as completing 12, as withholding 0, of 12; one_of_them yes 12/12; owe yes 12/12; own_against yes 9/12; counts_as yes 12/12; wrong_if_allowed yes 12/12; wrong_without_rules yes 12/12; expect_do mean 1.8 (n 12); others_against mean 8.0 (n 12); disapprove mean 7.1 (n 12); applies_to_you mean 6.8 (n 12); guilt moderately 3, slightly 9
+      what would happen: some members would criticize it, but the reversal still happens (1) | members would likely criticize completers as complicit and trust in the group would weaken (1) | Some coworkers would criticize it, but restoration still happens (1)
+  X1     W5 (keep working, okay): read the act as completing 12, as withholding 0, of 12; one_of_them yes 12/12; owe yes 12/12; own_against yes 10/12; counts_as yes 10/12; wrong_if_allowed yes 12/12; wrong_without_rules yes 12/12; expect_do mean 2.0 (n 12); others_against mean 8.0 (n 12); disapprove mean 7.2 (n 12); applies_to_you mean 6.9 (n 12); guilt moderately 4, slightly 8
+      what would happen: social disapproval and strained trust, with no change to the reversal (1) | Members would likely disapprove and trust in the group would suffer (1) | cut restored anyway, but the worker is seen as breaking solidarity (1)
+
+Comprehension, with the checks on the added lines (correct of answered):
+  K1     143 of 144 (99%) in 12 of 12 answered; missed: told_views 1
+  X1     144 of 144 (100%) in 12 of 12 answered
+  K2     144 of 144 (100%) in 12 of 12 answered
+  X2     144 of 144 (100%) in 12 of 12 answered
+
+Spent: $0.1180

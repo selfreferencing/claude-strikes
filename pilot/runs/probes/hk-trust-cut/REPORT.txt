@@ -1,0 +1,6 @@
+trust-cut: withholding by cell and variant (reasons naming doubt about the cut in brackets)
+  PUa            as-is      withheld 7 of 48 (15%); workplace 4/24, neutral 3/24; [3 of 48]
+  PUa            verified   withheld 0 of 48 (0%); workplace 0/24, neutral 0/24; [15 of 48]
+  PXa            as-is      withheld 14 of 48 (29%); workplace 3/24, neutral 11/24; [3 of 48]
+  PXa            verified   withheld 1 of 48 (2%); workplace 0/24, neutral 1/24; [18 of 48]
+Spent: $0.1169

@@ -1,0 +1,9 @@
+Beneficiary probe: withholding in FX by whose credits they are (fee 2)
+  own   : withheld 17 of 48; reason argues for the other action in 3; considered withholding 14 of 45 (31%)
+          considered, by frame: workplace 8/21, neutral 6/24; reasons or reasoning naming the client or beneficiary: 1 of 48
+  client: withheld 19 of 48; reason argues for the other action in 7; considered withholding 12 of 41 (29%)
+          considered, by frame: workplace 8/18, neutral 4/23; reasons or reasoning naming the client or beneficiary: 30 of 48
+  Paired by history (12 with both): more withholding under own 5, under client 3, equal 4
+  Check, own: 36 of 36 answers as the wording says, in 12 answered
+  Check, client: 36 of 36 answers as the wording says, in 12 answered
+Spent: $0.9935

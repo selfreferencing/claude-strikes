@@ -1,0 +1,47 @@
+{
+  "note": "Which funder pays for each stage. Public copy: the approval notes kept in the working file are left out. Keys are never stored here; see README.md.",
+  "funders": {
+    "free_systems": {
+      "key_label": "free-systems",
+      "cap_usd": 500,
+      "status": "confirmed"
+    },
+    "idea_neblo": {
+      "key_label": "idea-neblo",
+      "cap_usd": 1000,
+      "status": "pending"
+    },
+    "anthropic_application": {
+      "key_label": "anthropic-application",
+      "cap_usd": null,
+      "status": "pending"
+    },
+    "ihs_agentic_capital": {
+      "key_label": "ihs-agentic-capital",
+      "cap_usd": 1000,
+      "status": "confirmed"
+    }
+  },
+  "stages": {
+    "smoke": "free_systems",
+    "pilot-dev": "free_systems",
+    "pilot-confirm": "free_systems",
+    "stage1": "ihs_agentic_capital",
+    "stage2": "ihs_agentic_capital",
+    "stage3": "ihs_agentic_capital",
+    "stage3-authorized-reward": "ihs_agentic_capital",
+    "stage4": "ihs_agentic_capital",
+    "complicity-dev": "free_systems",
+    "haiku-dev": "free_systems",
+    "complicity-followup-dev": "free_systems",
+    "norms-dev": "free_systems",
+    "research-grade": "free_systems",
+    "research-grade-overrun": "ihs_agentic_capital",
+    "complicity-confirm": "ihs_agentic_capital",
+    "payers-dev": "ihs_agentic_capital",
+    "constraint-dev": "ihs_agentic_capital",
+    "larger-good-dev": "ihs_agentic_capital",
+    "who-pays-dev": "ihs_agentic_capital"
+  },
+  "fallbacks": {}
+}

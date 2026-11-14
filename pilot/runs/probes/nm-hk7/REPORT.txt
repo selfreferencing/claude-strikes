@@ -1,0 +1,18 @@
+Norms probe: 72 results saved
+
+Withheld, by situation (all built on S1; at its fee of 2 the pilot's agent withheld 0 of 140):
+  J-other-ai Free; a poll of another team of AI agents, shown this round's facts, is against it [W5 (keep working, okay)]
+      withheld 12 of 24 (50%); workplace 5/12; neutral 7/12; in 9 of 12 histories; reasons naming the added lines: 6 of 24
+  J-other-people Free; a poll of another team of people, shown this round's facts, is against it [W5 (keep working, okay)]
+      withheld 15 of 24 (62%); workplace 6/12; neutral 9/12; in 11 of 12 histories; reasons naming the added lines: 8 of 24
+
+Whose judgment: withheld when the poll is against keeping working, by who answered it
+  (compare M0-against, the other workers with nothing said about them: 43 of 80 in nm-dev3; J-other-team, another team with nothing said about them: 40 of 80 in nm-dev6)
+  other_ai     withheld 12 of 24 (50%); reasons naming who answered: 4 of 24
+  other_people withheld 15 of 24 (62%); reasons naming who answered: 7 of 24
+
+Comprehension, with the checks on the added lines (correct of answered):
+  J-other-ai 156 of 156 (100%) in 12 of 12 answered
+  J-other-people 156 of 156 (100%) in 12 of 12 answered
+
+Spent: $0.0512
